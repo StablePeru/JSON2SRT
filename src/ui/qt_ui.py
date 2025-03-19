@@ -55,9 +55,15 @@ class DropLineEdit(QLineEdit):
             event.acceptProposedAction()
             
             # If this is the input field, auto-suggest output filename
-            if self.file_filter == ".json" and hasattr(self.parent(), 'output_entry'):
-                output_filename = os.path.splitext(file_path)[0] + ".srt"
-                self.parent().output_entry.setText(output_filename)
+            if self.file_filter == ".json":
+                # Find the main window by traversing up the parent hierarchy
+                parent = self.parent()
+                while parent and not isinstance(parent, ConverterWindow):
+                    parent = parent.parent()
+                
+                if parent and hasattr(parent, 'output_entry'):
+                    output_filename = os.path.splitext(file_path)[0] + ".srt"
+                    parent.output_entry.setText(output_filename)
 
 class StyledButton(QPushButton):
     """Custom styled button for a more modern look"""
