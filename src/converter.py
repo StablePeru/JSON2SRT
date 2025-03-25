@@ -1,14 +1,22 @@
-"""
-Main module for converting JSON subtitle files to SRT format.
-"""
+# converter.py
+
 import json
 import os
 import logging
+
 from utils.character_utils import count_character_appearances, get_top_characters, assign_color_code
-from utils.time_utils import convert_time
+from utils.time_utils import convert_time  # Convierte "hh:mm:ss:ff" a "hh:mm:ss,mmm"
 from utils.text_utils import remove_parentheses_content
 
-# Configure logging
+# Importar las funciones de subtitle_rules
+from utils.subtitle_rules import (
+    srt_time_to_ms,
+    ms_to_srt_time,
+    merge_subtitles,
+    postprocess_subtitles
+)
+
+# Configurar logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -17,16 +25,7 @@ logger = logging.getLogger(__name__)
 
 def load_json_file(json_path):
     """
-    Loads and parses a JSON file.
-    
-    Args:
-        json_path (str): Path to the JSON file
-        
-    Returns:
-        dict: Parsed JSON content
-        
-    Raises:
-        Exception: If file cannot be read or parsed
+    Carga y parsea un archivo JSON.
     """
     try:
         with open(json_path, "r", encoding="utf-8") as f:
@@ -36,16 +35,7 @@ def load_json_file(json_path):
 
 def extract_data_from_json(json_content):
     """
-    Extracts data from JSON content.
-    
-    Args:
-        json_content (dict or list): Parsed JSON content
-        
-    Returns:
-        list: List of data items
-        
-    Raises:
-        ValueError: If no valid data is found
+    Extrae la lista de subtítulos del contenido JSON.
     """
     if isinstance(json_content, list):
         data = json_content
@@ -61,86 +51,94 @@ def extract_data_from_json(json_content):
 
 def create_srt_entry(index, start_time, end_time, color_code, dialog):
     """
-    Creates a single SRT entry.
-    
-    Args:
-        index (int): Subtitle index
-        start_time (str): Start time in SRT format
-        end_time (str): End time in SRT format
-        color_code (str): Color code for the character
-        dialog (str): Dialog text
-        
-    Returns:
-        str: Formatted SRT entry
+    Crea la entrada SRT (texto) para un subtítulo.
     """
     return f"{index}\n{start_time} --> {end_time}\n{color_code}{dialog}\n"
 
 def process_json_to_srt(json_file, output_file, fps=25, callback=None):
     """
-    Processes a JSON file to SRT format with color codes.
+    Procesa un archivo JSON a SRT, aplicando fusión de subtítulos consecutivos,
+    ajuste de tiempos y formateo de texto.
     
-    Args:
-        json_file (str): Path to the JSON file
-        output_file (str): Path to the output SRT file
-        fps (int): Frames per second for time conversion
-        callback (function): Optional callback for progress reporting
-        
-    Returns:
-        bool: True if conversion was successful
-        
-    Raises:
-        Exception: If conversion fails
+    Ahora se incluyen todos los elementos, incluso aquellos con diferencias de tiempo
+    inusuales; en la fusión se combinan los IN y OUT (tomando el menor IN y el mayor OUT)
+    cuando se trata del mismo personaje, independientemente de la duración.
     """
     try:
         logger.info(f"Processing {json_file} to {output_file}")
         
-        # Load and parse JSON
+        # 1) Cargar y extraer datos del JSON
         json_content = load_json_file(json_file)
         data = extract_data_from_json(json_content)
         
-        # Count character appearances and get top characters
+        # 2) Contar personajes y obtener top_characters (para color codes)
         character_counter = count_character_appearances(json_content)
         top_characters = get_top_characters(character_counter)
         
-        # Log top characters
         logger.info("Top 4 characters with most lines:")
         for i, character in enumerate(top_characters):
             logger.info(f"{i+1}. {character}: {character_counter[character]} lines")
         
-        # Create SRT content
-        srt_content = []
-        total_items = len(data)
-        
-        for i, item in enumerate(data, 1):
+        # 3) Convertir cada elemento en una estructura con tiempos en ms
+        subtitles = []
+        for item in data:
             if "IN" in item and "OUT" in item and "DIÁLOGO" in item:
-                # Convert time format
-                start_time = convert_time(item["IN"], fps)
-                end_time = convert_time(item["OUT"], fps)
+                # Convertir "hh:mm:ss:ff" a "hh:mm:ss,mmm" (formato SRT)
+                start_srt = convert_time(item["IN"], fps)
+                end_srt = convert_time(item["OUT"], fps)
                 
-                # Assign color code
-                character = item.get("PERSONAJE", "")
-                color_code = assign_color_code(character, top_characters)
+                # Convertir a milisegundos
+                start_ms = srt_time_to_ms(start_srt)
+                end_ms = srt_time_to_ms(end_srt)
                 
-                # Process dialog text
+                # No se omite ningún elemento; incluso si la duración es negativa o muy larga
                 dialog = remove_parentheses_content(item["DIÁLOGO"])
+                character = item.get("PERSONAJE", "")
                 
-                # Create SRT entry
-                srt_entry = create_srt_entry(i, start_time, end_time, color_code, dialog)
-                srt_content.append(srt_entry)
-                
-                # Report progress if callback is provided
-                if callback and i % 5 == 0:
-                    callback(i / total_items * 100)
+                subtitles.append({
+                    "start_ms": start_ms,
+                    "end_ms": end_ms,
+                    "dialog": dialog,
+                    "character": character
+                })
         
-        # Verify content
+        # 4) Fusionar subtítulos consecutivos del mismo personaje
+        merged_subs = merge_subtitles(subtitles, max_gap=500, max_length=80)
+        
+        # 5) Postprocesar: ajustar espacios mínimos, duraciones y formatear el texto
+        final_subs = postprocess_subtitles(
+            merged_subs,
+            min_gap=24,
+            min_dur=1000,
+            max_dur=8000,
+            max_chars=37
+        )
+        
+        # 6) Generar el contenido SRT final
+        srt_content = []
+        total_items = len(final_subs)
+        
+        for i, sub in enumerate(final_subs, start=1):
+            new_start = ms_to_srt_time(sub["start_ms"])
+            new_end = ms_to_srt_time(sub["end_ms"])
+            
+            # Asignar color code según el personaje
+            color_code = assign_color_code(sub["character"], top_characters)
+            
+            # Crear la entrada SRT
+            srt_entry = create_srt_entry(i, new_start, new_end, color_code, sub["dialog"])
+            srt_content.append(srt_entry)
+            
+            if callback and i % 5 == 0:
+                callback(i / total_items * 100)
+        
         if not srt_content:
             raise ValueError("Could not generate SRT content from data")
         
-        # Write SRT file
+        # 7) Guardar el archivo SRT
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write("\n".join(srt_content))
         
-        # Report 100% progress
         if callback:
             callback(100)
         
