@@ -1,0 +1,3650 @@
+{
+    "header": {
+        "reference_number": "230518",
+        "product_name": "CONAN DETEKTIBEA",
+        "chapter_number": "004",
+        "type": "Animacion"
+    },
+    "data": [
+        {
+            "ID": 2,
+            "IN": "00:00:00:10",
+            "OUT": "00:00:01:22",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Shinichi Kudo dut izena.",
+            "SCENE": 1
+        },
+        {
+            "ID": 309,
+            "IN": "00:00:01:22",
+            "OUT": "00:00:03:15",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Eta detektibe izan nahi dut.",
+            "SCENE": 1
+        },
+        {
+            "ID": 310,
+            "IN": "00:00:03:15",
+            "OUT": "00:00:05:19",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Kasu korapilatsu asko askatu ditut.",
+            "SCENE": 1
+        },
+        {
+            "ID": 311,
+            "IN": "00:00:05:19",
+            "OUT": "00:00:08:19",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Talde Beltzekoek pozoi ezezagun bat eman zidaten",
+            "SCENE": 1
+        },
+        {
+            "ID": 312,
+            "IN": "00:00:08:24",
+            "OUT": "00:00:11:16",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Orain, zazpi urteko ume baten itxura dut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 313,
+            "IN": "00:00:11:16",
+            "OUT": "00:00:13:05",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Baina, nola azaldu hori lagunei?!",
+            "SCENE": 1
+        },
+        {
+            "ID": 314,
+            "IN": "00:00:13:05",
+            "OUT": "00:00:13:18",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Kaixo Ran!",
+            "SCENE": 1
+        },
+        {
+            "ID": 315,
+            "IN": "00:00:13:18",
+            "OUT": "00:00:15:05",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Conan Edogawa dut izena!",
+            "SCENE": 1
+        },
+        {
+            "ID": 308,
+            "IN": "00:01:21:03",
+            "OUT": "00:01:22:24",
+            "PERSONAJE": "IZENBURUA",
+            "DIÁLOGO": "Conan Detektibea.",
+            "SCENE": 1
+        },
+        {
+            "ID": 4,
+            "IN": "00:01:27:17",
+            "OUT": "00:01:30:06",
+            "PERSONAJE": "ATALA",
+            "DIÁLOGO": "Kodea: Arrain distiratsua.",
+            "SCENE": 1
+        },
+        {
+            "ID": 5,
+            "IN": "00:01:38:12",
+            "OUT": "00:01:41:04",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Bai bitxi ederrak!",
+            "SCENE": 1
+        },
+        {
+            "ID": 6,
+            "IN": "00:01:41:04",
+            "OUT": "00:01:42:21",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Latza ezpata!",
+            "SCENE": 1
+        },
+        {
+            "ID": 7,
+            "IN": "00:01:43:11",
+            "OUT": "00:01:45:05",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Txundigarria da gero!",
+            "SCENE": 1
+        },
+        {
+            "ID": 8,
+            "IN": "00:01:45:20",
+            "OUT": "00:01:48:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Kode sekreturen bat ote?",
+            "SCENE": 1
+        },
+        {
+            "ID": 9,
+            "IN": "00:01:48:14",
+            "OUT": "00:01:50:21",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Bai leku interesgarria!",
+            "SCENE": 1
+        },
+        {
+            "ID": 10,
+            "IN": "00:01:50:21",
+            "OUT": "00:01:53:04",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Niri urrezko maskara gustatu zait gehien!",
+            "SCENE": 1
+        },
+        {
+            "ID": 11,
+            "IN": "00:01:53:04",
+            "OUT": "00:01:54:22",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Eta ez da bakarra izango!",
+            "SCENE": 1
+        },
+        {
+            "ID": 316,
+            "IN": "00:01:54:22",
+            "OUT": "00:01:58:09",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Altxor piloa egongo da munduan zehar han hemen ezkutaturik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 12,
+            "IN": "00:01:58:09",
+            "OUT": "00:01:59:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Benetan?",
+            "SCENE": 1
+        },
+        {
+            "ID": 317,
+            "IN": "00:01:59:04",
+            "OUT": "00:01:59:19",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Hara!",
+            "SCENE": 1
+        },
+        {
+            "ID": 520,
+            "IN": "00:01:59:19",
+            "OUT": "00:02:02:16",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Itzela izango da gero altxorren bila ibiltzea!",
+            "SCENE": 1
+        },
+        {
+            "ID": 318,
+            "IN": "00:02:05:14",
+            "OUT": "00:02:07:09",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Zer arraio da hau?",
+            "SCENE": 1
+        },
+        {
+            "ID": 13,
+            "IN": "00:02:07:16",
+            "OUT": "00:02:09:05",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Esan, zer dio?",
+            "SCENE": 1
+        },
+        {
+            "ID": 14,
+            "IN": "00:02:09:13",
+            "OUT": "00:02:11:02",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Norbaitek galduko zuen!",
+            "SCENE": 1
+        },
+        {
+            "ID": 15,
+            "IN": "00:02:11:02",
+            "OUT": "00:02:13:07",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Oso marrazi bitxiak ditu honek!",
+            "SCENE": 1
+        },
+        {
+            "ID": 16,
+            "IN": "00:02:13:07",
+            "OUT": "00:02:14:11",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Badakit!",
+            "SCENE": 1
+        },
+        {
+            "ID": 319,
+            "IN": "00:02:14:11",
+            "OUT": "00:02:15:22",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Altxorren baten mapa izango da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 19,
+            "IN": "00:02:16:10",
+            "OUT": "00:02:18:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Altxorraren mapa?",
+            "SCENE": 1
+        },
+        {
+            "ID": 20,
+            "IN": "00:02:18:15",
+            "OUT": "00:02:20:00",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Bai zera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 22,
+            "IN": "00:02:21:02",
+            "OUT": "00:02:21:24",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Itxi ahoa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 320,
+            "IN": "00:02:21:24",
+            "OUT": "00:02:23:15",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ayumik mapa dela badio,",
+            "SCENE": 1
+        },
+        {
+            "ID": 521,
+            "IN": "00:02:23:15",
+            "OUT": "00:02:24:19",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "mapa da ta kito!",
+            "SCENE": 1
+        },
+        {
+            "ID": 23,
+            "IN": "00:02:24:19",
+            "OUT": "00:02:26:14",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Baina ez da...",
+            "SCENE": 1
+        },
+        {
+            "ID": 24,
+            "IN": "00:02:26:14",
+            "OUT": "00:02:28:04",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Gor zaude ala zer?",
+            "SCENE": 1
+        },
+        {
+            "ID": 25,
+            "IN": "00:02:28:04",
+            "OUT": "00:02:30:07",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Tira, ez dago haserretu beharrik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 26,
+            "IN": "00:02:30:07",
+            "OUT": "00:02:31:24",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Kontuz zer diozun, mutiko!",
+            "SCENE": 1
+        },
+        {
+            "ID": 27,
+            "IN": "00:02:31:24",
+            "OUT": "00:02:33:09",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Ez dakizu piperrik ere!",
+            "SCENE": 1
+        },
+        {
+            "ID": 28,
+            "IN": "00:02:33:09",
+            "OUT": "00:02:34:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ez horixe!",
+            "SCENE": 1
+        },
+        {
+            "ID": 29,
+            "IN": "00:02:34:04",
+            "OUT": "00:02:34:21",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Nahikoa da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 30,
+            "IN": "00:02:34:21",
+            "OUT": "00:02:36:02",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Mozolo galanta zara!",
+            "SCENE": 1
+        },
+        {
+            "ID": 321,
+            "IN": "00:02:36:02",
+            "OUT": "00:02:38:02",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ayumik beti du arrazoi, entzun!",
+            "SCENE": 1
+        },
+        {
+            "ID": 31,
+            "IN": "00:02:38:02",
+            "OUT": "00:02:38:17",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Bai horixe!",
+            "SCENE": 1
+        },
+        {
+            "ID": 322,
+            "IN": "00:02:38:17",
+            "OUT": "00:02:39:24",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Hurrengoan, ixo!",
+            "SCENE": 1
+        },
+        {
+            "ID": 32,
+            "IN": "00:02:39:24",
+            "OUT": "00:02:41:24",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Zorte itzela izan dugu, lagunok!",
+            "SCENE": 1
+        },
+        {
+            "ID": 323,
+            "IN": "00:02:41:24",
+            "OUT": "00:02:44:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Altxorren baten mapa topatu dugu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 33,
+            "IN": "00:02:44:04",
+            "OUT": "00:02:45:16",
+            "PERSONAJE": "MITSUSHUKO",
+            "DIÁLOGO": "Bai, baina, zer egingo dugu orain?!",
+            "SCENE": 1
+        },
+        {
+            "ID": 34,
+            "IN": "00:02:45:16",
+            "OUT": "00:02:46:16",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ez dakit ba!",
+            "SCENE": 1
+        },
+        {
+            "ID": 35,
+            "IN": "00:02:46:16",
+            "OUT": "00:02:48:05",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Hasiko al gara altxorraren bila?",
+            "SCENE": 1
+        },
+        {
+            "ID": 36,
+            "IN": "00:02:48:05",
+            "OUT": "00:02:48:21",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Hori da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 324,
+            "IN": "00:02:48:21",
+            "OUT": "00:02:51:13",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ta ez dugu etsiko altxorra topatu arte!",
+            "SCENE": 1
+        },
+        {
+            "ID": 325,
+            "IN": "00:02:51:13",
+            "OUT": "00:02:54:11",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Detetektibe Gazte Taldea misterioa argitzeko prest!",
+            "SCENE": 1
+        },
+        {
+            "ID": 37,
+            "IN": "00:02:54:11",
+            "OUT": "00:02:56:02",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Detektibe Gazte Taldea?",
+            "SCENE": 1
+        },
+        {
+            "ID": 38,
+            "IN": "00:02:56:02",
+            "OUT": "00:02:58:01",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Bai zirraragarria!",
+            "SCENE": 1
+        },
+        {
+            "ID": 39,
+            "IN": "00:02:58:01",
+            "OUT": "00:03:00:14",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ni, neu, izango naiz talde-burua!",
+            "SCENE": 1
+        },
+        {
+            "ID": 326,
+            "IN": "00:03:00:14",
+            "OUT": "00:03:02:00",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ados zaudete?",
+            "SCENE": 1
+        },
+        {
+            "ID": 41,
+            "IN": "00:03:02:00",
+            "OUT": "00:03:03:11",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Bai horixe!",
+            "SCENE": 1
+        },
+        {
+            "ID": 43,
+            "IN": "00:03:03:11",
+            "OUT": "00:03:06:06",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ai ama! Hau da hau buruko mina!",
+            "SCENE": 1
+        },
+        {
+            "ID": 44,
+            "IN": "00:03:06:06",
+            "OUT": "00:03:07:08",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Aurrera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 46,
+            "IN": "00:03:07:08",
+            "OUT": "00:03:08:21",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Bai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 48,
+            "IN": "00:03:11:20",
+            "OUT": "00:03:13:08",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Baina nora?!",
+            "SCENE": 1
+        },
+        {
+            "ID": 49,
+            "IN": "00:03:13:08",
+            "OUT": "00:03:14:15",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ez dakit!",
+            "SCENE": 1
+        },
+        {
+            "ID": 50,
+            "IN": "00:03:16:07",
+            "OUT": "00:03:17:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Tira, utzi mapa.",
+            "SCENE": 1
+        },
+        {
+            "ID": 327,
+            "IN": "00:03:17:11",
+            "OUT": "00:03:18:15",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ea zer dioen!",
+            "SCENE": 1
+        },
+        {
+            "ID": 53,
+            "IN": "00:03:22:11",
+            "OUT": "00:03:25:06",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hara, begira honako irudi honi.",
+            "SCENE": 1
+        },
+        {
+            "ID": 328,
+            "IN": "00:03:25:06",
+            "OUT": "00:03:27:00",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Eraikin baten antza du, ezta?",
+            "SCENE": 1
+        },
+        {
+            "ID": 57,
+            "IN": "00:03:32:21",
+            "OUT": "00:03:34:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Goazen ba!",
+            "SCENE": 1
+        },
+        {
+            "ID": 58,
+            "IN": "00:03:34:04",
+            "OUT": "00:03:35:10",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Bai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 60,
+            "IN": "00:03:36:01",
+            "OUT": "00:03:37:07",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Azkarrago!",
+            "SCENE": 1
+        },
+        {
+            "ID": 61,
+            "IN": "00:03:41:17",
+            "OUT": "00:03:45:07",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Bart gauean, poliziak Dino Cabane atxilotu du,",
+            "SCENE": 1
+        },
+        {
+            "ID": 330,
+            "IN": "00:03:45:07",
+            "OUT": "00:03:47:16",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Tohto Dorrearen alboko apartamentu batean.",
+            "SCENE": 1
+        },
+        {
+            "ID": 329,
+            "IN": "00:03:47:16",
+            "OUT": "00:03:51:03",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Cabane, Italiako lapur sare arriskutsu bateko burua da.",
+            "SCENE": 1
+        },
+        {
+            "ID": 331,
+            "IN": "00:03:51:03",
+            "OUT": "00:03:54:02",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Polizia Cabaneren taldearen bila hasi da;",
+            "SCENE": 1
+        },
+        {
+            "ID": 332,
+            "IN": "00:03:54:02",
+            "OUT": "00:03:55:07",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "baina eragozpen handiz,",
+            "SCENE": 1
+        },
+        {
+            "ID": 519,
+            "IN": "00:03:55:07",
+            "OUT": "00:03:57:05",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "talde-buruak ez baitu txintik ere esan!",
+            "SCENE": 1
+        },
+        {
+            "ID": 333,
+            "IN": "00:03:57:05",
+            "OUT": "00:04:00:03",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Taldea aske dabil, eta momentuz ez dago,",
+            "SCENE": 1
+        },
+        {
+            "ID": 334,
+            "IN": "00:04:00:03",
+            "OUT": "00:04:03:07",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "oraintsu lapurtutako 15000 urrezko txanponen aztarnarik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 62,
+            "IN": "00:04:08:01",
+            "OUT": "00:04:11:22",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Berehala igarri dut lehenengo irudia Tohto dorrea zela!",
+            "SCENE": 1
+        },
+        {
+            "ID": 63,
+            "IN": "00:04:11:22",
+            "OUT": "00:04:14:09",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Ea zer nolako altxorra topatzen dugun!",
+            "SCENE": 1
+        },
+        {
+            "ID": 65,
+            "IN": "00:04:16:05",
+            "OUT": "00:04:18:22",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Zer esan nahi ote du honek?",
+            "SCENE": 1
+        },
+        {
+            "ID": 335,
+            "IN": "00:04:18:22",
+            "OUT": "00:04:21:10",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "O R O jartzen du hemen!",
+            "SCENE": 1
+        },
+        {
+            "ID": 66,
+            "IN": "00:04:21:10",
+            "OUT": "00:04:23:13",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "O... o... oroigarri?",
+            "SCENE": 1
+        },
+        {
+            "ID": 67,
+            "IN": "00:04:23:13",
+            "OUT": "00:04:25:21",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Nik badakit zer esan nahi duen!",
+            "SCENE": 1
+        },
+        {
+            "ID": 336,
+            "IN": "00:04:25:21",
+            "OUT": "00:04:28:11",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Lehenengo “O” horrek, ‘ortzi’ esan nahi du,",
+            "SCENE": 1
+        },
+        {
+            "ID": 338,
+            "IN": "00:04:28:11",
+            "OUT": "00:04:31:00",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "“rr” –a tartean duela, “urre” hitzak bezala!",
+            "SCENE": 1
+        },
+        {
+            "ID": 337,
+            "IN": "00:04:31:00",
+            "OUT": "00:04:33:14",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Eta azken letra “ospetsu”-tik hartu dute.",
+            "SCENE": 1
+        },
+        {
+            "ID": 339,
+            "IN": "00:04:33:14",
+            "OUT": "00:04:36:19",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Hirurak batera (bilduz gero), “ortziko urrerik ospetsuena” esan nahi du!",
+            "SCENE": 1
+        },
+        {
+            "ID": 340,
+            "IN": "00:04:36:19",
+            "OUT": "00:04:38:16",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Altxor itzela izango da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 68,
+            "IN": "00:04:39:04",
+            "OUT": "00:04:40:11",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Azkarra zara gero!",
+            "SCENE": 1
+        },
+        {
+            "ID": 341,
+            "IN": "00:04:40:11",
+            "OUT": "00:04:42:14",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Ez nuen uste hainbeste zenekienik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 69,
+            "IN": "00:04:43:04",
+            "OUT": "00:04:44:19",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Pixka bat bai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 70,
+            "IN": "00:04:44:19",
+            "OUT": "00:04:46:03",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Mesedez!",
+            "SCENE": 1
+        },
+        {
+            "ID": 71,
+            "IN": "00:04:47:19",
+            "OUT": "00:04:50:23",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Urre ta bitxi mordoa egongo da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 72,
+            "IN": "00:04:50:23",
+            "OUT": "00:04:52:06",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Nahikoa da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 73,
+            "IN": "00:04:52:06",
+            "OUT": "00:00:00:00",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Badakit!",
+            "SCENE": 1
+        },
+        {
+            "ID": 342,
+            "IN": "00:00:00:00",
+            "OUT": "00:04:56:07",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Altxor horri esker, munduko jatetxe guztietan bazkalduko\ndut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 74,
+            "IN": "00:04:56:07",
+            "OUT": "00:04:59:01",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Eta nik munduari 100 bider emango diot bira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 75,
+            "IN": "00:04:59:01",
+            "OUT": "00:05:02:10",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Beno, ba nik Nasakoen espazio-ontzirik azkarrena erosiko\ndut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 76,
+            "IN": "00:05:02:10",
+            "OUT": "00:05:04:00",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Eta zuk zer, Conan?",
+            "SCENE": 1
+        },
+        {
+            "ID": 77,
+            "IN": "00:05:04:00",
+            "OUT": "00:05:05:23",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ba, aurreztu egingo dut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 78,
+            "IN": "00:05:05:23",
+            "OUT": "00:05:08:02",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Zuk ez duzu gatzik, motel!",
+            "SCENE": 1
+        },
+        {
+            "ID": 79,
+            "IN": "00:05:08:14",
+            "OUT": "00:05:10:04",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Jan egin behar nau, ala?",
+            "SCENE": 1
+        },
+        {
+            "ID": 81,
+            "IN": "00:05:21:01",
+            "OUT": "00:05:24:09",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Tira! Hementxe hasiko gara altxorraren bila!",
+            "SCENE": 1
+        },
+        {
+            "ID": 82,
+            "IN": "00:05:24:09",
+            "OUT": "00:05:26:02",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Kodeari jarraitu ta kito!",
+            "SCENE": 1
+        },
+        {
+            "ID": 343,
+            "IN": "00:05:26:02",
+            "OUT": "00:05:26:20",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Erraza da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 83,
+            "IN": "00:05:26:20",
+            "OUT": "00:05:30:08",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Beno, nik aterkia baino ez dut ezagutzen.",
+            "SCENE": 1
+        },
+        {
+            "ID": 344,
+            "IN": "00:05:30:08",
+            "OUT": "00:05:32:14",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Gainerako irudi guztiak oso bitxiak dira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 86,
+            "IN": "00:05:35:17",
+            "OUT": "00:05:37:00",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Bai, badakit!",
+            "SCENE": 1
+        },
+        {
+            "ID": 345,
+            "IN": "00:05:37:00",
+            "OUT": "00:05:37:23",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ilargia!",
+            "SCENE": 1
+        },
+        {
+            "ID": 346,
+            "IN": "00:05:37:23",
+            "OUT": "00:05:39:08",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Bigarrena ilargia da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 89,
+            "IN": "00:05:40:08",
+            "OUT": "00:05:43:12",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Beraz, altxorra dagoen lekutik dorrerantz begiratuz gero,",
+            "SCENE": 1
+        },
+        {
+            "ID": 347,
+            "IN": "00:05:43:12",
+            "OUT": "00:05:45:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "ilargia haren alboan ikusten da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 90,
+            "IN": "00:05:45:04",
+            "OUT": "00:05:47:08",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Horrek ez du inolako zentzurik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 348,
+            "IN": "00:05:47:08",
+            "OUT": "00:05:50:13",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Gauak aurrera egin ahala, ilargia lekuz aldatzen da.",
+            "SCENE": 1
+        },
+        {
+            "ID": 349,
+            "IN": "00:05:50:13",
+            "OUT": "00:05:52:21",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Eta gure mapa zatian ez da ageri ez ordurik,",
+            "SCENE": 1
+        },
+        {
+            "ID": 522,
+            "IN": "00:05:52:21",
+            "OUT": "00:05:54:01",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "ez leku zehatzik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 91,
+            "IN": "00:05:54:01",
+            "OUT": "00:05:55:23",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ba, esan zeuk, non dagoen!",
+            "SCENE": 1
+        },
+        {
+            "ID": 92,
+            "IN": "00:05:55:23",
+            "OUT": "00:05:59:00",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Aizu, Conan, ezer bururatu al zaizu?",
+            "SCENE": 1
+        },
+        {
+            "ID": 93,
+            "IN": "00:05:59:14",
+            "OUT": "00:06:02:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hurrengo irudiei begira nago.",
+            "SCENE": 1
+        },
+        {
+            "ID": 350,
+            "IN": "00:06:02:11",
+            "OUT": "00:06:05:16",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Agian hirurak bilduz gero, zerbait asmatuko dugu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 351,
+            "IN": "00:06:05:16",
+            "OUT": "00:06:07:20",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Begira honi, lehenengoak kapela dirudi.",
+            "SCENE": 1
+        },
+        {
+            "ID": 352,
+            "IN": "00:06:07:20",
+            "OUT": "00:06:09:13",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Bigarrenak, azpiko arropa",
+            "SCENE": 1
+        },
+        {
+            "ID": 353,
+            "IN": "00:06:09:13",
+            "OUT": "00:06:11:06",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "eta hirugarrena aterkia da;",
+            "SCENE": 1
+        },
+        {
+            "ID": 354,
+            "IN": "00:06:11:06",
+            "OUT": "00:06:12:17",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "jantzi markaren baten ikurra.",
+            "SCENE": 1
+        },
+        {
+            "ID": 355,
+            "IN": "00:06:13:21",
+            "OUT": "00:06:16:20",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Baina, non topatu hauek denak?",
+            "SCENE": 1
+        },
+        {
+            "ID": 94,
+            "IN": "00:06:16:20",
+            "OUT": "00:06:18:13",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Jantzi-dendan!",
+            "SCENE": 1
+        },
+        {
+            "ID": 97,
+            "IN": "00:06:18:13",
+            "OUT": "00:06:20:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez hain arin, lagunok!",
+            "SCENE": 1
+        },
+        {
+            "ID": 98,
+            "IN": "00:06:21:18",
+            "OUT": "00:06:22:13",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Aurrera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 100,
+            "IN": "00:06:22:13",
+            "OUT": "00:06:23:10",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Bai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 101,
+            "IN": "00:06:23:10",
+            "OUT": "00:06:24:05",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ei, itxaron ba!",
+            "SCENE": 1
+        },
+        {
+            "ID": 102,
+            "IN": "00:06:34:02",
+            "OUT": "00:06:35:13",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Hemen egon behar du!",
+            "SCENE": 1
+        },
+        {
+            "ID": 356,
+            "IN": "00:06:35:22",
+            "OUT": "00:06:37:10",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Erne begiak!",
+            "SCENE": 1
+        },
+        {
+            "ID": 357,
+            "IN": "00:06:37:16",
+            "OUT": "00:06:39:15",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Miatu dena goitik behera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 358,
+            "IN": "00:06:39:20",
+            "OUT": "00:06:41:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Topatu altxorra!",
+            "SCENE": 1
+        },
+        {
+            "ID": 359,
+            "IN": "00:06:41:04",
+            "OUT": "00:06:42:01",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Aurrera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 103,
+            "IN": "00:06:44:07",
+            "OUT": "00:06:45:09",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Gelditu behingoz!",
+            "SCENE": 1
+        },
+        {
+            "ID": 360,
+            "IN": "00:06:45:09",
+            "OUT": "00:06:46:19",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Istilutan sartuko gara!",
+            "SCENE": 1
+        },
+        {
+            "ID": 106,
+            "IN": "00:06:48:16",
+            "OUT": "00:06:51:07",
+            "PERSONAJE": "SALTZ-GIZ",
+            "DIÁLOGO": "Ume-zorri deabruak!",
+            "SCENE": 1
+        },
+        {
+            "ID": 108,
+            "IN": "00:06:53:18",
+            "OUT": "00:06:55:14",
+            "PERSONAJE": "SALTZ-EMA",
+            "DIÁLOGO": "Ez itzuli hona gero!",
+            "SCENE": 1
+        },
+        {
+            "ID": 110,
+            "IN": "00:06:57:01",
+            "OUT": "00:06:59:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Jantzi-denda guztiak miatu ditugu,",
+            "SCENE": 1
+        },
+        {
+            "ID": 361,
+            "IN": "00:06:59:04",
+            "OUT": "00:07:00:02",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "ta ezer ere ez...",
+            "SCENE": 1
+        },
+        {
+            "ID": 111,
+            "IN": "00:07:00:02",
+            "OUT": "00:07:00:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez.",
+            "SCENE": 1
+        },
+        {
+            "ID": 112,
+            "IN": "00:07:00:11",
+            "OUT": "00:07:01:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Gose naiz.",
+            "SCENE": 1
+        },
+        {
+            "ID": 113,
+            "IN": "00:07:01:04",
+            "OUT": "00:07:02:17",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Goazen zerbait jatera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 114,
+            "IN": "00:07:03:11",
+            "OUT": "00:07:05:19",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "E! Sartuko gara liburu-dendan?",
+            "SCENE": 1
+        },
+        {
+            "ID": 115,
+            "IN": "00:07:05:19",
+            "OUT": "00:07:06:24",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Inozoa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 362,
+            "IN": "00:07:06:24",
+            "OUT": "00:07:08:16",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Hor ez dute jatekorik saltzen!",
+            "SCENE": 1
+        },
+        {
+            "ID": 116,
+            "IN": "00:07:09:01",
+            "OUT": "00:07:10:09",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Segundotxo bat. Bai?",
+            "SCENE": 1
+        },
+        {
+            "ID": 117,
+            "IN": "00:07:12:15",
+            "OUT": "00:07:14:09",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Hara! Itzela da gero!",
+            "SCENE": 1
+        },
+        {
+            "ID": 363,
+            "IN": "00:07:14:09",
+            "OUT": "00:07:16:05",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Begira honi! Hau da hau artista!",
+            "SCENE": 1
+        },
+        {
+            "ID": 118,
+            "IN": "00:07:16:05",
+            "OUT": "00:07:17:15",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Bai xelebrea!",
+            "SCENE": 1
+        },
+        {
+            "ID": 119,
+            "IN": "00:07:17:15",
+            "OUT": "00:07:18:05",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Nor da?",
+            "SCENE": 1
+        },
+        {
+            "ID": 120,
+            "IN": "00:07:18:19",
+            "OUT": "00:07:21:03",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "“Oro” “O-R-O?”",
+            "SCENE": 1
+        },
+        {
+            "ID": 364,
+            "IN": "00:07:21:03",
+            "OUT": "00:07:22:14",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hitz ingelesa ote da?",
+            "SCENE": 1
+        },
+        {
+            "ID": 365,
+            "IN": "00:07:24:15",
+            "OUT": "00:07:26:08",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hemen ez da ageri!",
+            "SCENE": 1
+        },
+        {
+            "ID": 366,
+            "IN": "00:07:26:17",
+            "OUT": "00:07:28:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ea beste batean...",
+            "SCENE": 1
+        },
+        {
+            "ID": 367,
+            "IN": "00:07:32:01",
+            "OUT": "00:07:33:15",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Italierazkoan?",
+            "SCENE": 1
+        },
+        {
+            "ID": 368,
+            "IN": "00:07:37:14",
+            "OUT": "00:07:39:16",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Beno batek jakin...",
+            "SCENE": 1
+        },
+        {
+            "ID": 369,
+            "IN": "00:07:41:02",
+            "OUT": "00:07:43:01",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Arraioa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 370,
+            "IN": "00:07:43:01",
+            "OUT": "00:07:44:08",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hemen dago!",
+            "SCENE": 1
+        },
+        {
+            "ID": 371,
+            "IN": "00:07:44:08",
+            "OUT": "00:07:47:00",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "“Oro” hitzak urre esan nahi du italieraz!",
+            "SCENE": 1
+        },
+        {
+            "ID": 372,
+            "IN": "00:07:47:00",
+            "OUT": "00:07:48:21",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Kodea...",
+            "SCENE": 1
+        },
+        {
+            "ID": 523,
+            "IN": "00:07:49:22",
+            "OUT": "00:07:51:21",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "benetako altxor-mapa da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 121,
+            "IN": "00:07:52:11",
+            "OUT": "00:07:55:09",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Poliziak Dino Cabane atxilotu du bart gauean.",
+            "SCENE": 1
+        },
+        {
+            "ID": 373,
+            "IN": "00:07:55:09",
+            "OUT": "00:07:58:15",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Cabane Italiako lapur-sare arriskutsu bateko burua da.",
+            "SCENE": 1
+        },
+        {
+            "ID": 374,
+            "IN": "00:07:58:15",
+            "OUT": "00:08:02:02",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Japoniako segurtasun agenteak bere taldekoen atzetik\ndabiltza.",
+            "SCENE": 1
+        },
+        {
+            "ID": 375,
+            "IN": "00:08:02:02",
+            "OUT": "00:08:04:08",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Oraindik ez dago gaizkileok lapurtutako",
+            "SCENE": 1
+        },
+        {
+            "ID": 377,
+            "IN": "00:08:04:08",
+            "OUT": "00:08:06:05",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "15 000 urrezko txanponen lorratzik.",
+            "SCENE": 1
+        },
+        {
+            "ID": 376,
+            "IN": "00:08:06:05",
+            "OUT": "00:08:09:11",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Txanponok, (batera) 600 milioi yeneko balioa omen dute adituen\narabera.",
+            "SCENE": 1
+        },
+        {
+            "ID": 122,
+            "IN": "00:08:09:11",
+            "OUT": "00:08:10:00",
+            "PERSONAJE": "KOGORO",
+            "DIÁLOGO": "600 milioi!",
+            "SCENE": 1
+        },
+        {
+            "ID": 378,
+            "IN": "00:08:10:00",
+            "OUT": "00:08:12:05",
+            "PERSONAJE": "KOGORO",
+            "DIÁLOGO": "Ez dira ez kokoloak!",
+            "SCENE": 1
+        },
+        {
+            "ID": 123,
+            "IN": "00:08:14:01",
+            "OUT": "00:08:15:22",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Zer da? Berriro dena hankaz gora!",
+            "SCENE": 1
+        },
+        {
+            "ID": 379,
+            "IN": "00:08:15:22",
+            "OUT": "00:08:18:04",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Praka-nasai hutsa zara aita!",
+            "SCENE": 1
+        },
+        {
+            "ID": 124,
+            "IN": "00:08:22:07",
+            "OUT": "00:08:25:04",
+            "PERSONAJE": "KOGORO",
+            "DIÁLOGO": "Aizu, laztana, non dago etxeko ume-zorria?",
+            "SCENE": 1
+        },
+        {
+            "ID": 125,
+            "IN": "00:08:25:20",
+            "OUT": "00:08:26:17",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Nor, Conan?",
+            "SCENE": 1
+        },
+        {
+            "ID": 380,
+            "IN": "00:08:27:03",
+            "OUT": "00:08:29:07",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Goizean goiz Arte museora joan da lagunekin.",
+            "SCENE": 1
+        },
+        {
+            "ID": 126,
+            "IN": "00:08:29:17",
+            "OUT": "00:08:33:12",
+            "PERSONAJE": "KOGORO",
+            "DIÁLOGO": "Umeok bizimodu erraza dute gero!",
+            "SCENE": 1
+        },
+        {
+            "ID": 127,
+            "IN": "00:08:33:20",
+            "OUT": "00:08:34:19",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Aita!",
+            "SCENE": 1
+        },
+        {
+            "ID": 381,
+            "IN": "00:08:34:19",
+            "OUT": "00:08:36:19",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Altxa ipurdia ta lagundu hau jasotzen!",
+            "SCENE": 1
+        },
+        {
+            "ID": 382,
+            "IN": "00:08:36:19",
+            "OUT": "00:08:38:01",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Ez zara umea!",
+            "SCENE": 1
+        },
+        {
+            "ID": 128,
+            "IN": "00:08:38:23",
+            "OUT": "00:08:40:21",
+            "PERSONAJE": "KOGORO",
+            "DIÁLOGO": "Bai, bai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 129,
+            "IN": "00:08:42:05",
+            "OUT": "00:08:43:18",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Italiako poliziaren arabera,",
+            "SCENE": 1
+        },
+        {
+            "ID": 383,
+            "IN": "00:08:43:18",
+            "OUT": "00:08:46:05",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Cabaneren taldeko hiru gizon aske dabiltza.",
+            "SCENE": 1
+        },
+        {
+            "ID": 384,
+            "IN": "00:08:46:05",
+            "OUT": "00:08:50:07",
+            "PERSONAJE": "ANNOUNCER",
+            "DIÁLOGO": "Betaurreko beltzak daramatzate eta euretako bat japoniarra\nomen da.",
+            "SCENE": 1
+        },
+        {
+            "ID": 130,
+            "IN": "00:08:57:15",
+            "OUT": "00:08:59:18",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Zertan ari da Conan?",
+            "SCENE": 1
+        },
+        {
+            "ID": 131,
+            "IN": "00:09:00:00",
+            "OUT": "00:09:00:21",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Batek daki!",
+            "SCENE": 1
+        },
+        {
+            "ID": 385,
+            "IN": "00:09:01:04",
+            "OUT": "00:09:02:22",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Aspaldi dago isil-isilik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 132,
+            "IN": "00:09:03:08",
+            "OUT": "00:09:05:00",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Kodea askatzen ari da.",
+            "SCENE": 1
+        },
+        {
+            "ID": 133,
+            "IN": "00:09:05:06",
+            "OUT": "00:09:09:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Putza! Ez diot antzik ere hartzen...",
+            "SCENE": 1
+        },
+        {
+            "ID": 386,
+            "IN": "00:09:09:18",
+            "OUT": "00:09:11:20",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Zer arraio ote da hau?",
+            "SCENE": 1
+        },
+        {
+            "ID": 387,
+            "IN": "00:09:12:11",
+            "OUT": "00:09:15:07",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Altxorraren mapa ala mezu sekreturen bat?",
+            "SCENE": 1
+        },
+        {
+            "ID": 388,
+            "IN": "00:09:15:07",
+            "OUT": "00:09:17:01",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Kaka zaharra!",
+            "SCENE": 1
+        },
+        {
+            "ID": 134,
+            "IN": "00:09:18:13",
+            "OUT": "00:09:19:23",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Hara!",
+            "SCENE": 1
+        },
+        {
+            "ID": 389,
+            "IN": "00:09:19:23",
+            "OUT": "00:09:21:09",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Begira horra!",
+            "SCENE": 1
+        },
+        {
+            "ID": 136,
+            "IN": "00:09:21:09",
+            "OUT": "00:09:23:05",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Agian horixe izango da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 390,
+            "IN": "00:09:23:05",
+            "OUT": "00:09:26:21",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Ikur hori eta bigarren marrazkia berdin berdinak dira.",
+            "SCENE": 1
+        },
+        {
+            "ID": 137,
+            "IN": "00:09:27:11",
+            "OUT": "00:09:28:19",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Bai, arrazoi duzu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 138,
+            "IN": "00:09:28:19",
+            "OUT": "00:09:30:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ba, orduan... ",
+            "SCENE": 1
+        },
+        {
+            "ID": 524,
+            "IN": "00:09:30:21",
+            "OUT": "00:09:32:23",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "hemengo irudiek...",
+            "SCENE": 1
+        },
+        {
+            "ID": 139,
+            "IN": "00:09:34:19",
+            "OUT": "00:09:35:21",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Zuzen gabiltza!",
+            "SCENE": 1
+        },
+        {
+            "ID": 391,
+            "IN": "00:09:36:06",
+            "OUT": "00:09:38:19",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Leku hau Tohto Dorrearen aurrean dago!",
+            "SCENE": 1
+        },
+        {
+            "ID": 392,
+            "IN": "00:09:39:05",
+            "OUT": "00:09:43:12",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Beraz, gure mapako marrazkiak denda-ikurren irudiak dira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 141,
+            "IN": "00:09:43:17",
+            "OUT": "00:09:47:19",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Bai! Ikurroi jarraitzea nahikoa izango da gure altxorra\ntopatzeko!",
+            "SCENE": 1
+        },
+        {
+            "ID": 142,
+            "IN": "00:09:48:00",
+            "OUT": "00:09:50:17",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Baina, orain norantz jo behar dugu?",
+            "SCENE": 1
+        },
+        {
+            "ID": 144,
+            "IN": "00:09:58:00",
+            "OUT": "00:09:59:14",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ilargipe kalea.",
+            "SCENE": 1
+        },
+        {
+            "ID": 393,
+            "IN": "00:10:00:02",
+            "OUT": "00:10:02:19",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Dorrearen alboan ilargia dago,",
+            "SCENE": 1
+        },
+        {
+            "ID": 394,
+            "IN": "00:10:02:19",
+            "OUT": "00:10:04:17",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ilargipe kalea esan nahiko du.",
+            "SCENE": 1
+        },
+        {
+            "ID": 146,
+            "IN": "00:10:04:17",
+            "OUT": "00:10:06:19",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Bai, hori da! Goazen!",
+            "SCENE": 1
+        },
+        {
+            "ID": 147,
+            "IN": "00:10:06:19",
+            "OUT": "00:10:07:19",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Bai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 149,
+            "IN": "00:10:09:16",
+            "OUT": "00:10:11:14",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Begira, lagunok!",
+            "SCENE": 1
+        },
+        {
+            "ID": 395,
+            "IN": "00:10:11:14",
+            "OUT": "00:10:13:17",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Buruz behera dagoen triangelu bat!",
+            "SCENE": 1
+        },
+        {
+            "ID": 150,
+            "IN": "00:10:13:24",
+            "OUT": "00:10:15:14",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Bai! Bikain!",
+            "SCENE": 1
+        },
+        {
+            "ID": 396,
+            "IN": "00:10:15:14",
+            "OUT": "00:10:17:07",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Hirugarren irudia ere horrelakoa da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 151,
+            "IN": "00:10:17:13",
+            "OUT": "00:10:20:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ea zelakoa den ondorengoa...",
+            "SCENE": 1
+        },
+        {
+            "ID": 397,
+            "IN": "00:10:21:12",
+            "OUT": "00:10:23:10",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Nanbu Akuarioa?",
+            "SCENE": 1
+        },
+        {
+            "ID": 398,
+            "IN": "00:10:23:10",
+            "OUT": "00:10:24:13",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hori da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 399,
+            "IN": "00:10:24:13",
+            "OUT": "00:10:28:05",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Lehenengo marrazkia Tohto dorrea da, eta azkena, berriz,",
+            "SCENE": 1
+        },
+        {
+            "ID": 400,
+            "IN": "00:10:28:05",
+            "OUT": "00:10:29:14",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Nanbu Akuarioa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 401,
+            "IN": "00:10:29:14",
+            "OUT": "00:10:31:04",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ilargia alboan izanik,",
+            "SCENE": 1
+        },
+        {
+            "ID": 402,
+            "IN": "00:10:31:04",
+            "OUT": "00:10:33:24",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "irudiok Ilargipe kaleko mapa osatzen dute!",
+            "SCENE": 1
+        },
+        {
+            "ID": 153,
+            "IN": "00:10:34:22",
+            "OUT": "00:10:37:19",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Eta, beraz, kalearen amaieran...",
+            "SCENE": 1
+        },
+        {
+            "ID": 156,
+            "IN": "00:10:37:24",
+            "OUT": "00:10:39:22",
+            "PERSONAJE": "MITSU",
+            "DIÁLOGO": "Altxorra egongo da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 157,
+            "IN": "00:10:39:22",
+            "OUT": "00:10:41:12",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ea ba! Aurrera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 160,
+            "IN": "00:10:43:11",
+            "OUT": "00:10:43:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "(batera) Bai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 163,
+            "IN": "00:10:56:01",
+            "OUT": "00:10:57:10",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Ikur bat falta zaigu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 403,
+            "IN": "00:10:57:10",
+            "OUT": "00:10:59:12",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Hemen ez dago bost puntako izarrik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 164,
+            "IN": "00:10:59:18",
+            "OUT": "00:11:00:15",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Arraioa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 404,
+            "IN": "00:11:00:15",
+            "OUT": "00:11:02:12",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Non gorde ote dute altxor hori!",
+            "SCENE": 1
+        },
+        {
+            "ID": 165,
+            "IN": "00:11:03:19",
+            "OUT": "00:11:04:23",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Begira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 405,
+            "IN": "00:11:04:23",
+            "OUT": "00:11:06:18",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Akuarioraino iritsi gara!",
+            "SCENE": 1
+        },
+        {
+            "ID": 166,
+            "IN": "00:11:07:00",
+            "OUT": "00:11:08:23",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ezinezkoa da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 406,
+            "IN": "00:11:09:10",
+            "OUT": "00:11:11:06",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Nola liteke?",
+            "SCENE": 1
+        },
+        {
+            "ID": 407,
+            "IN": "00:11:11:16",
+            "OUT": "00:11:14:22",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ilargipe kalea dorretik akuarioraino doa.",
+            "SCENE": 1
+        },
+        {
+            "ID": 408,
+            "IN": "00:11:14:22",
+            "OUT": "00:11:17:22",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Baina, maparen erdian bost irudi daude!",
+            "SCENE": 1
+        },
+        {
+            "ID": 409,
+            "IN": "00:11:18:18",
+            "OUT": "00:11:19:21",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hiru falta zaizkigu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 410,
+            "IN": "00:11:20:08",
+            "OUT": "00:11:21:24",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Egon,",
+            "SCENE": 1
+        },
+        {
+            "ID": 411,
+            "IN": "00:11:22:14",
+            "OUT": "00:11:24:18",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "“ORO” hitza italieraz dago,",
+            "SCENE": 1
+        },
+        {
+            "ID": 412,
+            "IN": "00:11:25:00",
+            "OUT": "00:11:28:21",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "beraz italiarren batek marraztuko zuen gure mapa hau!",
+            "SCENE": 1
+        },
+        {
+            "ID": 413,
+            "IN": "00:11:30:12",
+            "OUT": "00:11:32:03",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Orduan, ilargia...!?",
+            "SCENE": 1
+        },
+        {
+            "ID": 414,
+            "IN": "00:11:32:19",
+            "OUT": "00:11:34:12",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hori da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 415,
+            "IN": "00:11:34:12",
+            "OUT": "00:11:36:05",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Orain ulertzen dut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 168,
+            "IN": "00:11:36:22",
+            "OUT": "00:11:39:18",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Goazen berriro abiapuntura!",
+            "SCENE": 1
+        },
+        {
+            "ID": 169,
+            "IN": "00:11:40:02",
+            "OUT": "00:11:42:16",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "E, geldi! Conan!",
+            "SCENE": 1
+        },
+        {
+            "ID": 170,
+            "IN": "00:11:46:06",
+            "OUT": "00:11:49:07",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Mapa italiar batek egina bada,",
+            "SCENE": 1
+        },
+        {
+            "ID": 416,
+            "IN": "00:11:49:07",
+            "OUT": "00:11:52:14",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "hark ez zuen jakingo “Ilargipe” Japoniako kale baten izena\ndela.",
+            "SCENE": 1
+        },
+        {
+            "ID": 417,
+            "IN": "00:11:52:21",
+            "OUT": "00:11:54:15",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ilargiak gaua adierazten du!",
+            "SCENE": 1
+        },
+        {
+            "ID": 418,
+            "IN": "00:11:54:22",
+            "OUT": "00:11:56:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Gauean zer ikusiko:",
+            "SCENE": 1
+        },
+        {
+            "ID": 419,
+            "IN": "00:11:56:13",
+            "OUT": "00:11:58:22",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "izarrez gain neonezko argiak!",
+            "SCENE": 1
+        },
+        {
+            "ID": 173,
+            "IN": "00:12:00:01",
+            "OUT": "00:12:00:15",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Conan!",
+            "SCENE": 1
+        },
+        {
+            "ID": 420,
+            "IN": "00:12:00:15",
+            "OUT": "00:12:01:23",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Zergatik itzuli gara?",
+            "SCENE": 1
+        },
+        {
+            "ID": 174,
+            "IN": "00:12:02:04",
+            "OUT": "00:12:04:10",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Mapa honetan dauden marrazkiak,",
+            "SCENE": 1
+        },
+        {
+            "ID": 421,
+            "IN": "00:12:04:18",
+            "OUT": "00:12:06:17",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "neon-argizko leku-ikurrak dira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 176,
+            "IN": "00:12:07:02",
+            "OUT": "00:12:08:22",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Eta bigarren irudia",
+            "SCENE": 1
+        },
+        {
+            "ID": 422,
+            "IN": "00:12:09:18",
+            "OUT": "00:12:10:15",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "horixe da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 423,
+            "IN": "00:12:17:02",
+            "OUT": "00:12:18:06",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Begira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 178,
+            "IN": "00:12:18:11",
+            "OUT": "00:12:20:03",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Triangelua!",
+            "SCENE": 1
+        },
+        {
+            "ID": 179,
+            "IN": "00:12:20:10",
+            "OUT": "00:12:21:16",
+            "PERSONAJE": "AYUMY",
+            "DIÁLOGO": "Bai ederra!",
+            "SCENE": 1
+        },
+        {
+            "ID": 424,
+            "IN": "00:12:21:16",
+            "OUT": "00:12:23:01",
+            "PERSONAJE": "AYUMY",
+            "DIÁLOGO": "Gertutik ikusi nahi dut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 180,
+            "IN": "00:12:23:01",
+            "OUT": "00:12:25:16",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Goazen aterki formako argien bila!",
+            "SCENE": 1
+        },
+        {
+            "ID": 183,
+            "IN": "00:12:25:21",
+            "OUT": "00:12:26:17",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Bai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 184,
+            "IN": "00:12:26:17",
+            "OUT": "00:12:28:24",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Hemen ez da aterkirik ageri!",
+            "SCENE": 1
+        },
+        {
+            "ID": 185,
+            "IN": "00:12:28:24",
+            "OUT": "00:12:31:10",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Kale egin duzu, mutiko!",
+            "SCENE": 1
+        },
+        {
+            "ID": 186,
+            "IN": "00:12:31:20",
+            "OUT": "00:12:33:09",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez, topatu dut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 187,
+            "IN": "00:12:33:12",
+            "OUT": "00:12:33:22",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Zer?",
+            "SCENE": 1
+        },
+        {
+            "ID": 188,
+            "IN": "00:12:34:15",
+            "OUT": "00:12:35:24",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hortxe dago!",
+            "SCENE": 1
+        },
+        {
+            "ID": 189,
+            "IN": "00:12:36:20",
+            "OUT": "00:12:39:07",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Itsu zaude ala?",
+            "SCENE": 1
+        },
+        {
+            "ID": 425,
+            "IN": "00:12:39:16",
+            "OUT": "00:12:40:17",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Hori eguzkia da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 426,
+            "IN": "00:12:40:22",
+            "OUT": "00:12:42:22",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Arrazoi duzu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 427,
+            "IN": "00:12:43:03",
+            "OUT": "00:12:46:05",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Eguraldiaren iragarpen taula da horko hori eta beraz,",
+            "SCENE": 1
+        },
+        {
+            "ID": 428,
+            "IN": "00:12:46:05",
+            "OUT": "00:12:47:18",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "ikurrak aldatu egiten dira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 190,
+            "IN": "00:12:48:00",
+            "OUT": "00:12:50:23",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Goazen orain izarraren bila!",
+            "SCENE": 1
+        },
+        {
+            "ID": 193,
+            "IN": "00:12:51:06",
+            "OUT": "00:12:52:05",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Bai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 194,
+            "IN": "00:12:55:04",
+            "OUT": "00:12:55:24",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Topatu dut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 429,
+            "IN": "00:12:55:24",
+            "OUT": "00:12:57:01",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Begira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 430,
+            "IN": "00:12:57:01",
+            "OUT": "00:12:58:07",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Hauxe da izarra!",
+            "SCENE": 1
+        },
+        {
+            "ID": 195,
+            "IN": "00:12:58:20",
+            "OUT": "00:12:59:23",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Noria?!",
+            "SCENE": 1
+        },
+        {
+            "ID": 196,
+            "IN": "00:13:00:07",
+            "OUT": "00:13:02:24",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Arrazoi du! Bosgarrena horrelakoxea da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 197,
+            "IN": "00:13:03:05",
+            "OUT": "00:13:05:20",
+            "PERSONAJE": "MITSUTSHIKO",
+            "DIÁLOGO": "Seigarrena inguruan egongo da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 198,
+            "IN": "00:13:05:20",
+            "OUT": "00:13:07:02",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Non dago?",
+            "SCENE": 1
+        },
+        {
+            "ID": 431,
+            "IN": "00:13:07:02",
+            "OUT": "00:13:08:00",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Zer ote da?",
+            "SCENE": 1
+        },
+        {
+            "ID": 199,
+            "IN": "00:13:20:00",
+            "OUT": "00:13:21:01",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hortxe!",
+            "SCENE": 1
+        },
+        {
+            "ID": 432,
+            "IN": "00:13:21:01",
+            "OUT": "00:13:23:00",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Horixe da seigarren ikurra!",
+            "SCENE": 1
+        },
+        {
+            "ID": 201,
+            "IN": "00:13:28:18",
+            "OUT": "00:13:32:19",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "E, Conan, ziur al zaude altxorra hemen dagoela?",
+            "SCENE": 1
+        },
+        {
+            "ID": 202,
+            "IN": "00:13:33:11",
+            "OUT": "00:13:37:18",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "“Oro” seigarren ikurrarekin batera ageri da, ez dago\nzalantzarik.",
+            "SCENE": 1
+        },
+        {
+            "ID": 433,
+            "IN": "00:13:38:01",
+            "OUT": "00:13:41:16",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Baina begira ta begira aritu arren, ez dut hau ikusten.",
+            "SCENE": 1
+        },
+        {
+            "ID": 434,
+            "IN": "00:13:41:16",
+            "OUT": "00:13:45:07",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ze lekutan ote dago, arrain tankerako ikurra?",
+            "SCENE": 1
+        },
+        {
+            "ID": 203,
+            "IN": "00:13:45:13",
+            "OUT": "00:13:49:16",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Ez da harritzekoa, inguru honetan ez dago etxea ta etxea\nbesterik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 435,
+            "IN": "00:13:49:22",
+            "OUT": "00:13:52:24",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Arrainekin zerikusia duen leku bakarra horko ibaia da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 204,
+            "IN": "00:13:53:05",
+            "OUT": "00:13:53:13",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ibaia!",
+            "SCENE": 1
+        },
+        {
+            "ID": 437,
+            "IN": "00:13:53:13",
+            "OUT": "00:13:54:07",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Hori da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 436,
+            "IN": "00:13:54:07",
+            "OUT": "00:13:56:23",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Marrazkiak ibaiko arrainak irudikatzen ditu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 205,
+            "IN": "00:13:56:23",
+            "OUT": "00:13:57:09",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Zer?",
+            "SCENE": 1
+        },
+        {
+            "ID": 206,
+            "IN": "00:13:57:09",
+            "OUT": "00:13:59:23",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Tira! Goazen ibai ertzera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 207,
+            "IN": "00:14:01:13",
+            "OUT": "00:14:02:07",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hara!",
+            "SCENE": 1
+        },
+        {
+            "ID": 438,
+            "IN": "00:14:02:07",
+            "OUT": "00:14:03:06",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez, geldi!",
+            "SCENE": 1
+        },
+        {
+            "ID": 209,
+            "IN": "00:14:05:00",
+            "OUT": "00:14:08:01",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Utzi hori, Genta! Tira, nahikoa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 439,
+            "IN": "00:14:09:16",
+            "OUT": "00:14:11:00",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Arriskutsua da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 210,
+            "IN": "00:14:11:08",
+            "OUT": "00:14:12:02",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Isilik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 440,
+            "IN": "00:14:12:14",
+            "OUT": "00:14:15:07",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Altxorra hemen dago ta neuk aterako dut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 441,
+            "IN": "00:14:15:19",
+            "OUT": "00:14:17:04",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Hotza!",
+            "SCENE": 1
+        },
+        {
+            "ID": 211,
+            "IN": "00:14:17:14",
+            "OUT": "00:14:19:06",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez dago hor.",
+            "SCENE": 1
+        },
+        {
+            "ID": 442,
+            "IN": "00:14:21:08",
+            "OUT": "00:14:23:12",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Aurreko irudi guztiak neon-argiz egindako ikurrak dira.",
+            "SCENE": 1
+        },
+        {
+            "ID": 443,
+            "IN": "00:14:23:21",
+            "OUT": "00:14:27:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Azken honek ezin du ibai arrunta eta iluna irudikatu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 444,
+            "IN": "00:14:29:02",
+            "OUT": "00:14:30:24",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Nire susmoak zuzenak badira, ",
+            "SCENE": 1
+        },
+        {
+            "ID": 525,
+            "IN": "00:14:30:24",
+            "OUT": "00:14:33:04",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "hau arrain itxurako ikurren bat\nda...",
+            "SCENE": 1
+        },
+        {
+            "ID": 445,
+            "IN": "00:14:33:04",
+            "OUT": "00:14:34:18",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "neon-argiz egindakoa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 213,
+            "IN": "00:14:48:20",
+            "OUT": "00:14:50:07",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Zer duzu Conan?!",
+            "SCENE": 1
+        },
+        {
+            "ID": 214,
+            "IN": "00:14:53:06",
+            "OUT": "00:14:54:23",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Azkenean topatu dut",
+            "SCENE": 1
+        },
+        {
+            "ID": 446,
+            "IN": "00:14:55:11",
+            "OUT": "00:14:58:00",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "arrain distiratsua!",
+            "SCENE": 1
+        },
+        {
+            "ID": 215,
+            "IN": "00:15:00:03",
+            "OUT": "00:15:02:04",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Arrain distiratsua?",
+            "SCENE": 1
+        },
+        {
+            "ID": 216,
+            "IN": "00:15:02:13",
+            "OUT": "00:15:04:09",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Non arraio dago?",
+            "SCENE": 1
+        },
+        {
+            "ID": 217,
+            "IN": "00:15:04:20",
+            "OUT": "00:15:07:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Jarraitu ta ikusiko duzu!!",
+            "SCENE": 1
+        },
+        {
+            "ID": 218,
+            "IN": "00:15:07:19",
+            "OUT": "00:15:09:11",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "(off) Ezin dut gehiago!",
+            "SCENE": 1
+        },
+        {
+            "ID": 447,
+            "IN": "00:15:09:16",
+            "OUT": "00:15:12:13",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Gainera ez dut uste hemen arrainik dagoenik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 448,
+            "IN": "00:15:14:18",
+            "OUT": "00:15:15:23",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Aizu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 449,
+            "IN": "00:15:15:23",
+            "OUT": "00:15:17:05",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Hemen ez dago argirik! ",
+            "SCENE": 1
+        },
+        {
+            "ID": 526,
+            "IN": "00:15:17:05",
+            "OUT": "00:15:18:07",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ilun-ilun dago!",
+            "SCENE": 1
+        },
+        {
+            "ID": 219,
+            "IN": "00:15:18:11",
+            "OUT": "00:15:20:12",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Begiratu leihotik kanpora!",
+            "SCENE": 1
+        },
+        {
+            "ID": 450,
+            "IN": "00:15:20:22",
+            "OUT": "00:15:22:19",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Jarri begia ibaian!",
+            "SCENE": 1
+        },
+        {
+            "ID": 220,
+            "IN": "00:15:23:01",
+            "OUT": "00:15:23:15",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ibaian?",
+            "SCENE": 1
+        },
+        {
+            "ID": 221,
+            "IN": "00:15:23:15",
+            "OUT": "00:15:25:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Begira! Ikusten duzue?",
+            "SCENE": 1
+        },
+        {
+            "ID": 451,
+            "IN": "00:15:25:11",
+            "OUT": "00:15:28:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hortxe dago arrain distiratsua!",
+            "SCENE": 1
+        },
+        {
+            "ID": 224,
+            "IN": "00:15:30:09",
+            "OUT": "00:15:31:21",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Ibaian islatzean, ",
+            "SCENE": 1
+        },
+        {
+            "ID": 527,
+            "IN": "00:15:31:21",
+            "OUT": "00:15:33:15",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "argiek arrain forma egiten dute!",
+            "SCENE": 1
+        },
+        {
+            "ID": 225,
+            "IN": "00:15:33:21",
+            "OUT": "00:15:36:17",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Kale-argia da arrainaren begia!",
+            "SCENE": 1
+        },
+        {
+            "ID": 226,
+            "IN": "00:15:37:06",
+            "OUT": "00:15:39:01",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Orduan altxorra hemen egongo da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 227,
+            "IN": "00:15:39:07",
+            "OUT": "00:15:42:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Bai! Ez da (oso) urrun egongo.",
+            "SCENE": 1
+        },
+        {
+            "ID": 452,
+            "IN": "00:15:51:01",
+            "OUT": "00:15:52:20",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Non ote?",
+            "SCENE": 1
+        },
+        {
+            "ID": 453,
+            "IN": "00:15:55:22",
+            "OUT": "00:15:57:05",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Urrezkoa da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 454,
+            "IN": "00:16:01:09",
+            "OUT": "00:16:02:08",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Arraioa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 455,
+            "IN": "00:16:02:13",
+            "OUT": "00:16:04:03",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hor goian bada zerbait!",
+            "SCENE": 1
+        },
+        {
+            "ID": 456,
+            "IN": "00:16:04:10",
+            "OUT": "00:16:05:17",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Nola lotu ote dute?",
+            "SCENE": 1
+        },
+        {
+            "ID": 457,
+            "IN": "00:16:06:09",
+            "OUT": "00:16:07:15",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Badakit!",
+            "SCENE": 1
+        },
+        {
+            "ID": 458,
+            "IN": "00:16:07:19",
+            "OUT": "00:16:09:23",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Urrezko txanponen zakua da... ",
+            "SCENE": 1
+        },
+        {
+            "ID": 528,
+            "IN": "00:16:09:23",
+            "OUT": "00:16:12:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "eta soka horrek ixten dio\nahoa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 230,
+            "IN": "00:16:19:19",
+            "OUT": "00:16:20:17",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Altxorra da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 518,
+            "IN": "00:16:20:17",
+            "OUT": "00:16:22:00",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Horra gure altxorra!",
+            "SCENE": 1
+        },
+        {
+            "ID": 231,
+            "IN": "00:16:26:24",
+            "OUT": "00:16:29:19",
+            "PERSONAJE": "KOWANA",
+            "DIÁLOGO": "Lan bikaina, ume-zorri mukitsuok!",
+            "SCENE": 1
+        },
+        {
+            "ID": 232,
+            "IN": "00:16:29:19",
+            "OUT": "00:16:31:16",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Baina, nortzuk zarete zuek?",
+            "SCENE": 1
+        },
+        {
+            "ID": 233,
+            "IN": "00:16:31:24",
+            "OUT": "00:16:35:09",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Gizonok Tohto dorrearen aurrean zeuden...",
+            "SCENE": 1
+        },
+        {
+            "ID": 459,
+            "IN": "00:16:35:16",
+            "OUT": "00:16:37:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez dira ba...",
+            "SCENE": 1
+        },
+        {
+            "ID": 234,
+            "IN": "00:16:38:04",
+            "OUT": "00:16:39:06",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Itzuli hori!",
+            "SCENE": 1
+        },
+        {
+            "ID": 460,
+            "IN": "00:16:39:06",
+            "OUT": "00:16:41:08",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Gure altxorra da! Geuk topatu dugu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 235,
+            "IN": "00:16:41:08",
+            "OUT": "00:16:42:22",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Genta, ez!",
+            "SCENE": 1
+        },
+        {
+            "ID": 236,
+            "IN": "00:16:43:19",
+            "OUT": "00:16:45:08",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Putza!",
+            "SCENE": 1
+        },
+        {
+            "ID": 237,
+            "IN": "00:16:46:11",
+            "OUT": "00:16:48:06",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Ongi al zaude, Genta?",
+            "SCENE": 1
+        },
+        {
+            "ID": 238,
+            "IN": "00:16:49:12",
+            "OUT": "00:16:51:15",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hara, hara,",
+            "SCENE": 1
+        },
+        {
+            "ID": 461,
+            "IN": "00:16:51:20",
+            "OUT": "00:16:53:23",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "beraz, ez dakite txanponak non dauden!",
+            "SCENE": 1
+        },
+        {
+            "ID": 239,
+            "IN": "00:16:54:04",
+            "OUT": "00:16:57:03",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Conan, nortzuk dira gizon horiek?",
+            "SCENE": 1
+        },
+        {
+            "ID": 240,
+            "IN": "00:16:57:06",
+            "OUT": "00:16:59:21",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Italiako lapur-sare bateko gaizkileak!",
+            "SCENE": 1
+        },
+        {
+            "ID": 242,
+            "IN": "00:17:00:03",
+            "OUT": "00:17:01:14",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "La...lapur-sarea?",
+            "SCENE": 1
+        },
+        {
+            "ID": 243,
+            "IN": "00:17:01:19",
+            "OUT": "00:17:02:22",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Egia da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 462,
+            "IN": "00:17:02:22",
+            "OUT": "00:17:05:00",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Telebistako albistegietan agertu dira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 463,
+            "IN": "00:17:05:00",
+            "OUT": "00:17:07:03",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Ta orduan txanpon horiek...",
+            "SCENE": 1
+        },
+        {
+            "ID": 244,
+            "IN": "00:17:08:09",
+            "OUT": "00:17:09:14",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Zuzen zabiltzate...",
+            "SCENE": 1
+        },
+        {
+            "ID": 247,
+            "IN": "00:17:09:22",
+            "OUT": "00:17:13:15",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Txanponok Italiako banku batetik lapurtu genituen, ",
+            "SCENE": 1
+        },
+        {
+            "ID": 529,
+            "IN": "00:17:13:18",
+            "OUT": "00:17:15:00",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "orain\ndela urte batzuk,",
+            "SCENE": 1
+        },
+        {
+            "ID": 464,
+            "IN": "00:17:15:00",
+            "OUT": "00:17:17:12",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Cabane nagusiak hala aginduta.",
+            "SCENE": 1
+        },
+        {
+            "ID": 465,
+            "IN": "00:17:18:03",
+            "OUT": "00:17:22:06",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Baina, gure nagusi azpizapoak, saldu egin gintuen.",
+            "SCENE": 1
+        },
+        {
+            "ID": 466,
+            "IN": "00:17:22:10",
+            "OUT": "00:17:25:23",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Guri urrezko 15 000 txanponak ostu eta hona etorri zen,",
+            "SCENE": 1
+        },
+        {
+            "ID": 530,
+            "IN": "00:17:25:23",
+            "OUT": "00:17:26:17",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Japoniara.",
+            "SCENE": 1
+        },
+        {
+            "ID": 467,
+            "IN": "00:17:27:09",
+            "OUT": "00:17:31:04",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Atzetik jarraitu eta bere ezkutalekua topatu genuen.",
+            "SCENE": 1
+        },
+        {
+            "ID": 468,
+            "IN": "00:17:31:12",
+            "OUT": "00:17:34:15",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Baina txanponak beste nonbait gordeta zituen berak.",
+            "SCENE": 1
+        },
+        {
+            "ID": 469,
+            "IN": "00:17:34:24",
+            "OUT": "00:17:37:22",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Alferrik izan dira gure mehatxuak, ",
+            "SCENE": 1
+        },
+        {
+            "ID": 531,
+            "IN": "00:17:37:22",
+            "OUT": "00:17:39:07",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "ez digu txintik ere esan.",
+            "SCENE": 1
+        },
+        {
+            "ID": 470,
+            "IN": "00:17:39:07",
+            "OUT": "00:17:42:10",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Paper zati hau baino ez dugu topatu bere zerean.",
+            "SCENE": 1
+        },
+        {
+            "ID": 471,
+            "IN": "00:17:43:15",
+            "OUT": "00:17:45:12",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Gero poliziari deitu diogu,",
+            "SCENE": 1
+        },
+        {
+            "ID": 473,
+            "IN": "00:17:45:12",
+            "OUT": "00:17:47:23",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "nagusiaren ezkutalekua zein den esateko.",
+            "SCENE": 1
+        },
+        {
+            "ID": 472,
+            "IN": "00:17:48:01",
+            "OUT": "00:17:49:18",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Behin mendeku hartu ondoren,",
+            "SCENE": 1
+        },
+        {
+            "ID": 474,
+            "IN": "00:17:49:18",
+            "OUT": "00:17:51:20",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "urrezko txanponen bila abiatu\ngara.",
+            "SCENE": 1
+        },
+        {
+            "ID": 476,
+            "IN": "00:17:52:11",
+            "OUT": "00:17:53:18",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Baina, halako batean, ",
+            "SCENE": 1
+        },
+        {
+            "ID": 532,
+            "IN": "00:17:53:18",
+            "OUT": "00:17:56:07",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "papertxoak irrist egin digu\neskuetatik...",
+            "SCENE": 1
+        },
+        {
+            "ID": 475,
+            "IN": "00:17:56:16",
+            "OUT": "00:17:59:12",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "eta mukitsu talde batek lurrean topatu du, ",
+            "SCENE": 1
+        },
+        {
+            "ID": 533,
+            "IN": "00:17:59:12",
+            "OUT": "00:18:00:05",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "museo atarian.",
+            "SCENE": 1
+        },
+        {
+            "ID": 477,
+            "IN": "00:18:00:05",
+            "OUT": "00:18:02:13",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Gainerakoa guk baino hobeto dakizue.",
+            "SCENE": 1
+        },
+        {
+            "ID": 478,
+            "IN": "00:18:02:13",
+            "OUT": "00:18:03:21",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Zorionak, umeok!",
+            "SCENE": 1
+        },
+        {
+            "ID": 479,
+            "IN": "00:18:03:21",
+            "OUT": "00:18:06:09",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Ez genuen uste ezkutalekua topatuko zenutenik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 248,
+            "IN": "00:18:08:21",
+            "OUT": "00:18:10:14",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Pistola dauka!",
+            "SCENE": 1
+        },
+        {
+            "ID": 251,
+            "IN": "00:18:14:10",
+            "OUT": "00:18:16:11",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Kontuz! Conan!",
+            "SCENE": 1
+        },
+        {
+            "ID": 252,
+            "IN": "00:18:16:18",
+            "OUT": "00:18:17:22",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Ea, bota!",
+            "SCENE": 1
+        },
+        {
+            "ID": 481,
+            "IN": "00:18:17:22",
+            "OUT": "00:18:19:14",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Non daude urrezko txanponak!",
+            "SCENE": 1
+        },
+        {
+            "ID": 482,
+            "IN": "00:18:19:14",
+            "OUT": "00:18:20:04",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Esan!",
+            "SCENE": 1
+        },
+        {
+            "ID": 483,
+            "IN": "00:18:20:13",
+            "OUT": "00:18:22:02",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Hitz egin, zorritsu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 253,
+            "IN": "00:18:24:11",
+            "OUT": "00:18:25:10",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Arraina da",
+            "SCENE": 1
+        },
+        {
+            "ID": 254,
+            "IN": "00:18:25:17",
+            "OUT": "00:18:27:02",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Zer?",
+            "SCENE": 1
+        },
+        {
+            "ID": 255,
+            "IN": "00:18:27:09",
+            "OUT": "00:18:28:17",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Begira mapako arrainari,",
+            "SCENE": 1
+        },
+        {
+            "ID": 484,
+            "IN": "00:18:28:17",
+            "OUT": "00:18:33:24",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "neon-argiek eta ibaiko islak arrain distiratsua osatzen dute\nhemendik begiratuz gero.",
+            "SCENE": 1
+        },
+        {
+            "ID": 256,
+            "IN": "00:18:34:05",
+            "OUT": "00:18:36:09",
+            "PERSONAJE": "KAWANA",
+            "DIÁLOGO": "Ulertzen dut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 257,
+            "IN": "00:18:41:20",
+            "OUT": "00:18:42:12",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Conan!",
+            "SCENE": 1
+        },
+        {
+            "ID": 485,
+            "IN": "00:18:42:12",
+            "OUT": "00:18:44:13",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ez zenien ezer esan behar!",
+            "SCENE": 1
+        },
+        {
+            "ID": 258,
+            "IN": "00:18:44:13",
+            "OUT": "00:18:47:18",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Txanponak batzen dituztenean hil egingo gaituzte!",
+            "SCENE": 1
+        },
+        {
+            "ID": 259,
+            "IN": "00:18:47:24",
+            "OUT": "00:18:50:01",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Pelikula gehiegi ikusten duzue!",
+            "SCENE": 1
+        },
+        {
+            "ID": 260,
+            "IN": "00:18:50:07",
+            "OUT": "00:18:52:22",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Gureak egin du!",
+            "SCENE": 1
+        },
+        {
+            "ID": 486,
+            "IN": "00:18:53:03",
+            "OUT": "00:18:55:11",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Jo ta bala-zuloz josiko gaituzte!",
+            "SCENE": 1
+        },
+        {
+            "ID": 261,
+            "IN": "00:18:55:19",
+            "OUT": "00:18:58:21",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Harri-mokor egin eta itsasora botako gaituzte,",
+            "SCENE": 1
+        },
+        {
+            "ID": 487,
+            "IN": "00:18:58:21",
+            "OUT": "00:18:59:19",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "arrain artera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 262,
+            "IN": "00:18:59:23",
+            "OUT": "00:19:01:23",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Ez. Aztarnarik ez uztearren,",
+            "SCENE": 1
+        },
+        {
+            "ID": 488,
+            "IN": "00:19:01:23",
+            "OUT": "00:19:04:03",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "sutan kiskaliko gaituzte!",
+            "SCENE": 1
+        },
+        {
+            "ID": 263,
+            "IN": "00:19:04:09",
+            "OUT": "00:19:06:06",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Amatxo maitea!",
+            "SCENE": 1
+        },
+        {
+            "ID": 264,
+            "IN": "00:19:06:06",
+            "OUT": "00:19:07:24",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Aitatxo!",
+            "SCENE": 1
+        },
+        {
+            "ID": 265,
+            "IN": "00:19:07:24",
+            "OUT": "00:19:09:21",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Ama!",
+            "SCENE": 1
+        },
+        {
+            "ID": 266,
+            "IN": "00:19:12:12",
+            "OUT": "00:19:15:08",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez, ez dugu hain erraz etsiko!",
+            "SCENE": 1
+        },
+        {
+            "ID": 267,
+            "IN": "00:19:15:08",
+            "OUT": "00:19:16:18",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Zer?",
+            "SCENE": 1
+        },
+        {
+            "ID": 270,
+            "IN": "00:19:16:17",
+            "OUT": "00:19:18:08",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Guztion indarrak bilduta...",
+            "SCENE": 1
+        },
+        {
+            "ID": 489,
+            "IN": "00:19:18:08",
+            "OUT": "00:19:20:05",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "onik aterako gara!",
+            "SCENE": 1
+        },
+        {
+            "ID": 490,
+            "IN": "00:19:20:09",
+            "OUT": "00:19:20:23",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Egon lasai!",
+            "SCENE": 1
+        },
+        {
+            "ID": 271,
+            "IN": "00:19:20:23",
+            "OUT": "00:19:23:17",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Ez dugu indarrik horiei aurre egiteko!",
+            "SCENE": 1
+        },
+        {
+            "ID": 272,
+            "IN": "00:19:23:17",
+            "OUT": "00:19:25:17",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Ez dugu inola lortuko!",
+            "SCENE": 1
+        },
+        {
+            "ID": 273,
+            "IN": "00:19:25:17",
+            "OUT": "00:19:27:16",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Detektibe Gazte Taldea gara,",
+            "SCENE": 1
+        },
+        {
+            "ID": 492,
+            "IN": "00:19:27:16",
+            "OUT": "00:19:28:08",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "bai ala ez?!",
+            "SCENE": 1
+        },
+        {
+            "ID": 275,
+            "IN": "00:19:30:08",
+            "OUT": "00:19:31:15",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Arrazoi duzu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 491,
+            "IN": "00:19:31:15",
+            "OUT": "00:19:32:24",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Zer egingo dugu?",
+            "SCENE": 1
+        },
+        {
+            "ID": 276,
+            "IN": "00:19:32:24",
+            "OUT": "00:19:35:16",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Jarri zutik, eta jarraitu niri isil-isilik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 493,
+            "IN": "00:19:42:00",
+            "OUT": "00:19:43:07",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Aukera bakarra dugu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 494,
+            "IN": "00:19:49:05",
+            "OUT": "00:19:51:10",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Txanponak topatu arte egon,",
+            "SCENE": 1
+        },
+        {
+            "ID": 495,
+            "IN": "00:19:51:10",
+            "OUT": "00:19:54:11",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "eta oharkabean erasoko diegu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 496,
+            "IN": "00:19:56:14",
+            "OUT": "00:19:57:21",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Oraintxe!",
+            "SCENE": 1
+        },
+        {
+            "ID": 497,
+            "IN": "00:19:57:21",
+            "OUT": "00:19:58:20",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Aurrera!",
+            "SCENE": 1
+        },
+        {
+            "ID": 281,
+            "IN": "00:20:27:02",
+            "OUT": "00:20:29:14",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Aupa!",
+            "SCENE": 1
+        },
+        {
+            "ID": 285,
+            "IN": "00:20:31:19",
+            "OUT": "00:20:35:10",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Jarraian gertuen dagoen polizia-etxera jo dugu zuzenean.",
+            "SCENE": 1
+        },
+        {
+            "ID": 498,
+            "IN": "00:20:35:10",
+            "OUT": "00:20:37:08",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Zur eta lur geratu dira denak!",
+            "SCENE": 1
+        },
+        {
+            "ID": 499,
+            "IN": "00:20:37:08",
+            "OUT": "00:20:40:03",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Poliziak gaizkileak harrapatu eta kasua itxi du.",
+            "SCENE": 1
+        },
+        {
+            "ID": 500,
+            "IN": "00:20:40:11",
+            "OUT": "00:20:44:01",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Horixe izan da Detektibe Gazte Taldearen lehenengo lana.",
+            "SCENE": 1
+        },
+        {
+            "ID": 286,
+            "IN": "00:20:59:04",
+            "OUT": "00:21:00:11",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Benetan?",
+            "SCENE": 1
+        },
+        {
+            "ID": 501,
+            "IN": "00:21:00:11",
+            "OUT": "00:21:02:05",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Azkarrak zarete gero!",
+            "SCENE": 1
+        },
+        {
+            "ID": 502,
+            "IN": "00:21:02:05",
+            "OUT": "00:21:03:20",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Lan bikaina egin duzue!",
+            "SCENE": 1
+        },
+        {
+            "ID": 503,
+            "IN": "00:21:04:18",
+            "OUT": "00:21:07:00",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Nola askatu duzue kodea?",
+            "SCENE": 1
+        },
+        {
+            "ID": 287,
+            "IN": "00:21:07:06",
+            "OUT": "00:21:08:12",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Neuk lortu dut! ",
+            "SCENE": 1
+        },
+        {
+            "ID": 534,
+            "IN": "00:21:08:12",
+            "OUT": "00:21:09:22",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Nik neuk harrapatu ditut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 288,
+            "IN": "00:21:10:04",
+            "OUT": "00:21:12:18",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Baina kode sekretua neuk askatu dut!",
+            "SCENE": 1
+        },
+        {
+            "ID": 290,
+            "IN": "00:21:15:10",
+            "OUT": "00:21:16:23",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Ez gezurrik esan!",
+            "SCENE": 1
+        },
+        {
+            "ID": 504,
+            "IN": "00:21:16:23",
+            "OUT": "00:21:20:03",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Zuek ez duzue ez kodea askatu ez lapurrik harrapatu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 505,
+            "IN": "00:21:20:03",
+            "OUT": "00:21:23:01",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Dena Conani zor diogu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 292,
+            "IN": "00:21:24:09",
+            "OUT": "00:21:27:13",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Oso mutil argia ta ausarta da!",
+            "SCENE": 1
+        },
+        {
+            "ID": 295,
+            "IN": "00:21:33:01",
+            "OUT": "00:21:34:14",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Aizu, Conan...",
+            "SCENE": 1
+        },
+        {
+            "ID": 506,
+            "IN": "00:21:36:08",
+            "OUT": "00:21:38:01",
+            "PERSONAJE": "AYUMI",
+            "DIÁLOGO": "Eskerrik asko!",
+            "SCENE": 1
+        },
+        {
+            "ID": 299,
+            "IN": "00:21:40:24",
+            "OUT": "00:21:41:23",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Hara!",
+            "SCENE": 1
+        },
+        {
+            "ID": 507,
+            "IN": "00:21:42:07",
+            "OUT": "00:21:43:21",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Zorionak, Conantxo!",
+            "SCENE": 1
+        },
+        {
+            "ID": 508,
+            "IN": "00:21:43:21",
+            "OUT": "00:21:46:03",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Neska-lagun ederra duzu, gero!",
+            "SCENE": 1
+        },
+        {
+            "ID": 300,
+            "IN": "00:21:46:08",
+            "OUT": "00:21:47:15",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez! Zaude!",
+            "SCENE": 1
+        },
+        {
+            "ID": 509,
+            "IN": "00:21:47:15",
+            "OUT": "00:21:49:14",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez da nire neska-laguna!",
+            "SCENE": 1
+        },
+        {
+            "ID": 301,
+            "IN": "00:21:49:19",
+            "OUT": "00:21:50:12",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Lasai, txiki!",
+            "SCENE": 1
+        },
+        {
+            "ID": 510,
+            "IN": "00:21:50:12",
+            "OUT": "00:21:51:11",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Ez zaitez gorritu!",
+            "SCENE": 1
+        },
+        {
+            "ID": 302,
+            "IN": "00:21:51:11",
+            "OUT": "00:21:52:20",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez da hori!",
+            "SCENE": 1
+        },
+        {
+            "ID": 511,
+            "IN": "00:21:52:20",
+            "OUT": "00:21:54:05",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Oker zaude!",
+            "SCENE": 1
+        },
+        {
+            "ID": 303,
+            "IN": "00:21:55:08",
+            "OUT": "00:21:56:16",
+            "PERSONAJE": "GENTA",
+            "DIÁLOGO": "Arraioa!!",
+            "SCENE": 1
+        },
+        {
+            "ID": 304,
+            "IN": "00:21:57:03",
+            "OUT": "00:22:00:01",
+            "PERSONAJE": "MITSUSHIKO",
+            "DIÁLOGO": "Horrek du zortea!",
+            "SCENE": 1
+        },
+        {
+            "ID": 305,
+            "IN": "00:22:04:18",
+            "OUT": "00:22:05:06",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Putza!",
+            "SCENE": 1
+        },
+        {
+            "ID": 512,
+            "IN": "00:22:05:06",
+            "OUT": "00:22:06:20",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Talde Beltzekoak dira!",
+            "SCENE": 1
+        },
+        {
+            "ID": 513,
+            "IN": "00:22:07:10",
+            "OUT": "00:22:09:23",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Non ote dago lehergailua!",
+            "SCENE": 1
+        },
+        {
+            "ID": 514,
+            "IN": "00:22:10:01",
+            "OUT": "00:22:12:02",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hau al da? Eta zer dauka?",
+            "SCENE": 1
+        },
+        {
+            "ID": 515,
+            "IN": "00:22:19:14",
+            "OUT": "00:22:21:07",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Ez daukat beste aukerarik!",
+            "SCENE": 1
+        },
+        {
+            "ID": 516,
+            "IN": "00:22:21:15",
+            "OUT": "00:22:24:17",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Shinichi naizela esan beharko diot!",
+            "SCENE": 1
+        },
+        {
+            "ID": 306,
+            "IN": "00:22:26:02",
+            "OUT": "00:22:27:04",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Esan egia.",
+            "SCENE": 1
+        },
+        {
+            "ID": 517,
+            "IN": "00:22:27:08",
+            "OUT": "00:22:28:02",
+            "PERSONAJE": "RAN",
+            "DIÁLOGO": "Nor zara zu?",
+            "SCENE": 1
+        },
+        {
+            "ID": 307,
+            "IN": "00:22:28:12",
+            "OUT": "00:22:32:08",
+            "PERSONAJE": "CONAN",
+            "DIÁLOGO": "Hurrengo atalean: “Leherketa bala-trenean”",
+            "SCENE": 1
+        }
+    ]
+}
