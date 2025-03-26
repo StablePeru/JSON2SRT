@@ -41,5 +41,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['C:\\Users\\PeruMixer\\Desktop\\Programazioa\\Python\\Mixer\\Json2srt\\icon.ico'],
+    icon=['C:\\Users\\PeruMixer\\Desktop\\Programazioa\\Python\\Mixer\\SUBTITULACION\\Json2srt\\icon.ico'],
 )
