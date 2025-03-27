@@ -1,85 +1,101 @@
-# Esquema del Proyecto JSON2SRT
+# Documentación del Conversor JSON a SRT
 
-## Estructura del Proyecto
-
-```
-project/
-├── main.py                  # Punto de entrada de la aplicación
-├── converter.py             # Lógica principal para la conversión JSON a SRT
-├── utils/                   # Utilidades y herramientas auxiliares
-│   ├── character_utils.py   # Gestión de personajes y códigos de color
-│   ├── subtitle_rules.py    # Reglas y validaciones para subtítulos
-│   ├── text_utils.py        # Procesamiento de texto
-│   └── time_utils.py        # Conversiones de formato de tiempo
-└── ui/                      # Interfaz de usuario
-    └── qt_ui.py             # Implementación de la interfaz con PyQt5
-```
-
-## Componentes Principales
-
-### 1. Interfaz de Usuario (ui/qt_ui.py)
-- Implementa la interfaz gráfica usando PyQt5
-- Gestiona la interacción del usuario
-- Proporciona funcionalidades de arrastrar y soltar
-- Muestra el progreso de la conversión
-- Maneja la selección de archivos
-
-### 2. Conversor Principal (converter.py)
-- Coordina el proceso de conversión
-- Lee y parsea archivos JSON
-- Genera archivos SRT
-- Integra las utilidades de procesamiento
-
-### 3. Utilidades (utils/)
-
-#### Character Utils (character_utils.py)
-- Identifica personajes principales
-- Asigna códigos de color:
-  * Amarillo (<AN1>) - Personaje principal 1
-  * Azul claro (<CN1>) - Personaje principal 2
-  * Magenta (<MN1>) - Personaje principal 3
-  * Verde (<VN1>) - Personaje principal 4
-  * Blanco (<BN1>) - Personajes secundarios
-
-#### Subtitle Rules (subtitle_rules.py)
-- Define reglas de formato para subtítulos
-- Valida la estructura de los subtítulos
-- Aplica restricciones de formato
-
-#### Text Utils (text_utils.py)
-- Procesa y formatea texto
-- Maneja caracteres especiales
-- Aplica estilos y formatos
-
-#### Time Utils (time_utils.py)
-- Convierte formatos de tiempo
-- Sincroniza tiempos de entrada/salida
-- Ajusta FPS (Frames Por Segundo)
-
-## Flujo de Datos
-
-1. **Entrada**
-   - Archivo JSON con subtítulos
-   - Configuración de FPS
-
-2. **Procesamiento**
-   - Lectura y validación del JSON
-   - Identificación de personajes
-   - Asignación de colores
-   - Conversión de tiempos
-   - Formateo de texto
-
-3. **Salida**
-   - Archivo SRT con códigos de color
-   - Subtítulos sincronizados
-   - Personajes identificados
+## Descripción General
+Este programa es una aplicación de escritorio diseñada para convertir archivos de subtítulos en formato JSON a formato SRT. Está desarrollada con Python y PyQt5, ofreciendo una interfaz gráfica intuitiva y fácil de usar.
 
 ## Características Principales
 
-- Conversión JSON a SRT
-- Codificación de colores por personaje
-- Interfaz drag & drop
-- Personalización de FPS
-- Barra de progreso
-- Manejo de errores
-- Validación de formato
+### Conversión de Formatos
+- Convierte archivos JSON estructurados a formato SRT estándar
+- Mantiene la precisión temporal en la conversión
+- Preserva los estilos y formatos especiales del texto
+
+### Interfaz de Usuario
+- Interfaz gráfica intuitiva desarrollada con PyQt5
+- Sistema de arrastrar y soltar para selección de archivos
+- Barra de progreso visual durante la conversión
+- Mensajes de error claros y descriptivos
+
+### Gestión de Colores para Personajes
+- Asignación automática de códigos de color basada en la prominencia de los personajes
+- Facilita la identificación de diálogos por personaje
+- Personalización de colores según preferencias
+
+### Personalización de FPS
+- Ajuste de cuadros por segundo (FPS) para sincronización precisa
+- Garantiza la correcta temporización de los subtítulos
+
+## Formato de Entrada (JSON)
+
+### Estructura Esperada
+```json
+{
+  "subtitles": [
+    {
+      "start": "00:01:23:10",
+      "end": "00:01:25:15",
+      "character": "Personaje1",
+      "text": "Texto del subtítulo"
+    }
+  ]
+}
+```
+
+### Campos Requeridos
+- start: Tiempo de inicio en formato HH:MM:SS.mmm
+- end: Tiempo de finalización en formato HH:MM:SS.mmm
+- character: Nombre del personaje que habla
+- text: Contenido del subtítulo
+
+## Formato de Salida (SRT)
+
+### Estructura del Archivo SRT
+```
+1
+00:00:03,957 --> 00:00:06,290
+<AN1>Texto correspondiente.
+
+2
+[siguiente subtítulo...]
+```
+
+### Características del Formato
+- Numeración secuencial de subtítulos
+- Marcas de tiempo en formato SRT estándar
+- Códigos de color para identificar personajes
+- Formato de texto enriquecido compatible
+
+## Procesamiento de Texto
+
+### Manejo de Caracteres Especiales
+- Conversión automática de caracteres especiales
+- Soporte para múltiples idiomas
+- Preservación de formatos básicos
+
+### Reglas de Formato
+- Límite de caracteres por línea
+- Mantenimiento de estilos de texto
+
+## Gestión de Errores
+
+### Validación de Entrada
+- Verificación de formato JSON válido
+- Comprobación de campos requeridos
+- Validación de formato de tiempo
+
+### Mensajes de Error
+- Errores de formato de archivo
+- Problemas de conversión de tiempo
+- Errores de procesamiento de texto
+
+## Características Adicionales
+
+### Optimización de Rendimiento
+- Procesamiento eficiente de archivos grandes
+- Uso optimizado de memoria
+- Conversión rápida y precisa
+
+### Compatibilidad
+- Compatible con reproductores multimedia estándar
+- Soporte para diferentes codificaciones de texto
+- Integración con sistemas de subtitulado existentes
