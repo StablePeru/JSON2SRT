@@ -88,56 +88,84 @@ def ms_to_srt_time(ms):
     milli = ms % 1000
     return f"{h:02d}:{m:02d}:{s:02d},{milli:03d}"
 
-def merge_subtitles(subtitles, max_gap=3000): # Cambiado default y eliminado max_length
+def merge_subtitles(subtitles, 
+                    max_gap=3000,      # Gap máx. entre subtítulos para fusionar
+                    max_chars=37,      # Máx. 37 caracteres en la primera línea
+                    max_sub_dur=8000   # Máx. 8 segundos (8000 ms) por subtítulo
+                   ):
     """
-    Fusiona subtítulos consecutivos si son del mismo personaje y la diferencia
-    de tiempo entre el OUT del primero y el IN del segundo es <= max_gap.
-    Ya no considera max_length aquí.
+    Fusiona subtítulos consecutivos si:
+      - Son del mismo personaje,
+      - El gap entre ellos es <= max_gap,
+      - Al combinar ambos no superan 8s totales,
+      - Y no se excede el límite de 2 líneas de 37 caracteres (74) 
+        cuando ambas intervenciones, por separado, cumplen ese límite.
+
+    Si una intervención individual ya supera 74 caracteres, se omite la norma
+    para esa intervención (no podemos partirla), pero no se sigue concatenando 
+    con otras que sí cumplen la norma, para no generar un subtítulo aún mayor.
     """
-    if not subtitles: return []
+    if not subtitles:
+        return []
 
     merged = []
-    if not subtitles: return []
-
     buffer_sub = subtitles[0].copy()
-    # Asegurarse que el diálogo inicial está limpio (ya debería estarlo por el preproceso)
-    buffer_sub["dialog"] = buffer_sub["dialog"].strip()
+
+    # Función auxiliar para saber si un texto cabe en 2 líneas de 37
+    def fits_in_two_lines(text, max_chars=37):
+        # Muy simple: si no supera 74 caracteres en total, podremos partirlo
+        # en una primera línea de hasta 37 y el resto en la segunda.
+        return len(text.strip()) <= (2 * max_chars)
 
     for current in subtitles[1:]:
-        current["dialog"] = current["dialog"].strip() # Limpiar diálogo actual
-
         same_speaker = (current["character"] == buffer_sub["character"])
-        # Asegurar que start_ms y end_ms son válidos antes de calcular gap
-        if buffer_sub["end_ms"] < buffer_sub["start_ms"] or current["start_ms"] < current["end_ms"] < buffer_sub["end_ms"]:
-             # Condición de tiempo inválida, no fusionar y pasar al siguiente
-             merged.append(buffer_sub)
-             buffer_sub = current.copy()
-             continue
-
         gap = current["start_ms"] - buffer_sub["end_ms"]
 
-        # CAMBIO: Condición de fusión basada solo en personaje y gap
         if same_speaker and 0 <= gap <= max_gap:
-            # Fusionar: combinar diálogo con espacio, ajustar tiempos
-            combined_dialog = buffer_sub["dialog"] + " " + current["dialog"]
-            buffer_sub["dialog"] = combined_dialog.strip() # Re-limpiar por si acaso
+            # Duración si unimos buffer_sub + current
+            combined_duration = current["end_ms"] - buffer_sub["start_ms"]
 
-            # Mantener el IN más temprano y el OUT más tardío
-            buffer_sub["start_ms"] = min(buffer_sub["start_ms"], current["start_ms"])
-            buffer_sub["end_ms"] = max(buffer_sub["end_ms"], current["end_ms"])
+            if combined_duration <= max_sub_dur:
+                # Verificar longitudes individuales y combinadas
+                buffer_text = buffer_sub["dialog"].strip()
+                current_text = current["dialog"].strip()
+                combined_text = buffer_text + " " + current_text
 
-            # Podríamos querer guardar las partes originales si es útil después (opcional)
-            # buffer_sub["original_dialog"] += "\n" + current["original_dialog"] # Ejemplo
+                buffer_fits = fits_in_two_lines(buffer_text, max_chars)
+                current_fits = fits_in_two_lines(current_text, max_chars)
+                combined_fits = fits_in_two_lines(combined_text, max_chars)
 
+                # Caso 1: Ambas intervenciones caben por separado en 2 líneas (<=74)
+                if buffer_fits and current_fits:
+                    # Solo fusionar si el resultado también cabe en <=74
+                    if combined_fits:
+                        # Se pueden fusionar sin romper la norma
+                        buffer_sub["dialog"] = combined_text
+                        buffer_sub["end_ms"] = current["end_ms"]
+                    else:
+                        # No se fusionan para no romper la norma
+                        merged.append(buffer_sub)
+                        buffer_sub = current.copy()
+                else:
+                    # Caso 2: Al menos una de las dos ya excede 74.
+                    # "No queda otra" que ignorar la norma para esa intervención
+                    # PERO lo recomendable es no concatenar más si una ya incumple,
+                    # para no agravar la longitud. Por tanto, tampoco fusionamos.
+                    merged.append(buffer_sub)
+                    buffer_sub = current.copy()
+            else:
+                # Se excede la duración de 8s => no fusionar
+                merged.append(buffer_sub)
+                buffer_sub = current.copy()
         else:
-            # No fusionar: guardar el buffer y empezar uno nuevo
+            # Distinto personaje o gap > max_gap => no fusionar
             merged.append(buffer_sub)
             buffer_sub = current.copy()
 
-    # Añadir el último subtítulo (ya sea original o resultado de fusiones)
+    # Agregar el último buffer_sub
     merged.append(buffer_sub)
-
     return merged
+
 
 # --- postprocess_subtitles: Refactored to handle overflow ---
 def postprocess_subtitles(subtitles, min_gap=24, min_dur=1000, max_dur=8000, max_chars=37):
