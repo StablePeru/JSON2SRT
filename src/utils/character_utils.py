@@ -65,3 +65,5 @@ def assign_color_code(character, top_characters):
         return "<MN1>"  # Magenta - Main character 3
     elif position == 3:
         return "<VN1>"  # Green - Main character 4
+    else:
+        return "<BN1>"

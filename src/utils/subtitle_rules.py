@@ -74,19 +74,6 @@ def ms_to_srt_time(ms):
     s = ms // 1000
     milli = ms % 1000
     return f"{h:02d}:{m:02d}:{s:02d},{milli:03d}"
-def srt_time_to_ms(srt_time):
-    h, m, s_ms = srt_time.split(":")
-    s, ms = s_ms.split(",")
-    return int(h) * 3600000 + int(m) * 60000 + int(s) * 1000 + int(ms)
-
-def ms_to_srt_time(ms):
-    h = ms // 3600000
-    ms %= 3600000
-    m = ms // 60000
-    ms %= 60000
-    s = ms // 1000
-    milli = ms % 1000
-    return f"{h:02d}:{m:02d}:{s:02d},{milli:03d}"
 
 def merge_subtitles(subtitles, 
                     max_gap=3000,      # Gap máx. entre subtítulos para fusionar
@@ -177,31 +164,33 @@ def postprocess_subtitles(subtitles, min_gap=24, min_dur=1000, max_dur=8000, max
         return []
 
     processed_subs = []
-    last_end_ms = -min_gap # Para permitir que el primer subtítulo empiece en 0
+    last_end_ms = -min_gap  # Para permitir que el primer subtítulo empiece en 0
 
     for sub_data in subtitles:
-        text_to_format = sub_data["dialog"] # Ya viene preprocesado (sin \n, sin paréntesis)
+        text_to_format = sub_data["dialog"]  # Ya viene preprocesado (sin \n, sin paréntesis)
         original_start_ms = sub_data["start_ms"]
         original_end_ms = sub_data["end_ms"]
         character = sub_data["character"]
 
-        # CAMBIO: Usar la nueva función de formato simple
-        # Esta función devuelve todo el texto formateado, no hay 'remaining_text'
+        # Usar la nueva función de formato simple
         formatted_lines = format_dialog_simple_split(text_to_format, max_chars)
-
         if not formatted_lines:
-             continue # Ignorar subtítulos vacíos
+            continue  # Ignorar subtítulos vacíos
 
         # --- Ajuste de Tiempos ---
         # 1. Ajustar inicio para cumplir min_gap con el subtítulo anterior
         current_start_ms = max(original_start_ms, last_end_ms + min_gap)
 
-        # 2. Calcular duración estimada basada en caracteres (opcional, puede ayudar a guiar)
-        #    Podemos usar una heurística simple o basarnos en el número de líneas
+        # 2. Calcular duración estimada basada en caracteres visibles y número de líneas
+        visual_text = formatted_lines.replace('\n', '')
         num_lines = formatted_lines.count('\n') + 1
-        chars_per_second = 15 # Ajusta según necesidad
-        # Usamos len(text_to_format) porque formatted_lines incluye el \n
-        estimated_duration_ms = max(min_dur, (len(text_to_format) / chars_per_second) * 1000)
+        chars_per_second = 15  # Ajusta según necesidad
+        line_penalty = 1.1 if num_lines == 2 else 1.0
+
+        estimated_duration_ms = max(
+            min_dur,
+            (len(visual_text) / chars_per_second) * 1000 * line_penalty
+        )
 
         # 3. Calcular el fin MÍNIMO basado en el inicio ajustado y la duración mínima
         min_end_ms = current_start_ms + min_dur
@@ -209,29 +198,22 @@ def postprocess_subtitles(subtitles, min_gap=24, min_dur=1000, max_dur=8000, max
         # 4. Calcular el fin basado en la duración estimada
         estimated_end_ms = current_start_ms + estimated_duration_ms
 
-        # 5. Determinar el fin final, respetando la duración mínima, máxima y el OUT original
-        current_end_ms = min_end_ms # Empezar con el mínimo requerido
-        current_end_ms = max(current_end_ms, estimated_end_ms) # Intentar alcanzar la duración estimada
-        current_end_ms = min(current_end_ms, current_start_ms + max_dur) # No exceder la duración máxima
-        # Ya NO necesitamos la lógica compleja de max_allowed_end_ms porque no hay overflow
-        current_end_ms = max(current_end_ms, original_end_ms) # Intentar respetar el OUT original si es más tardío
+        # 5. Determinar el fin final, respetando duración mínima, máxima y el OUT original
+        current_end_ms = max(min_end_ms, estimated_end_ms)
+        current_end_ms = min(current_end_ms, current_start_ms + max_dur)
+        current_end_ms = max(current_end_ms, original_end_ms)
 
-
-        # Asegurarse de que el fin no sea anterior al inicio (puede pasar con ajustes agresivos)
         if current_end_ms <= current_start_ms:
-            current_end_ms = current_start_ms + min_dur # Forzar duración mínima si hay conflicto
+            current_end_ms = current_start_ms + min_dur  # Forzar duración mínima si hay conflicto
 
         processed_subs.append({
             "start_ms": int(current_start_ms),
             "end_ms": int(current_end_ms),
-            "dialog": formatted_lines, # El texto ya formateado en 1 o 2 líneas
+            "dialog": formatted_lines,  # Texto formateado en 1 o 2 líneas
             "character": character
         })
 
-        # Actualizar el tiempo de fin para el cálculo del gap del siguiente subtítulo
+        # Actualizar fin para siguiente subtítulo
         last_end_ms = current_end_ms
-
-    # CAMBIO: Eliminada la sección de añadir puntos suspensivos de continuidad.
-    # CAMBIO: Eliminada la validación final de >2 líneas (no debería ocurrir).
 
     return processed_subs

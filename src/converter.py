@@ -6,7 +6,6 @@ import logging
 
 from utils.character_utils import count_character_appearances, get_top_characters, assign_color_code
 from utils.time_utils import convert_time  # Convierte "hh:mm:ss:ff" a "hh:mm:ss,mmm"
-# NO SE IMPORTA remove_parentheses_content de text_utils
 
 # Importar las funciones de subtitle_rules
 from utils.subtitle_rules import (
